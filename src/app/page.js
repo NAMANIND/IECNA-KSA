@@ -15,6 +15,7 @@ import Countdown from "@/components/countdown/Countdown";
 import { VideoCarousel } from "@/components/mainpage/videocarousel/VideoCarousel";
 
 import { anton } from "@/styles/fonts";
+import { Vc2 } from "@/components/mainpage/vc2/Vc2";
 
 export default function Home() {
   return (
@@ -29,7 +30,10 @@ export default function Home() {
       <div className="bg-white w-full">
         <Missing />
       </div>
-      <Wsa />
+      <div className="bg-black w-full flex justify-center items-center">
+        {" "}
+        <Wsa />
+      </div>
       <div className="bg-white w-full">
         {/* <Awardnrec /> */}
         <div
@@ -37,7 +41,13 @@ export default function Home() {
         >
           AWARDS AND RECOGNITION
         </div>
-        <VideoCarousel />
+
+        <div className=" hidden sm:block">
+          <VideoCarousel />
+        </div>
+        <div className="sm:hidden block">
+          <Vc2 />
+        </div>
       </div>
       <Sponsors />
       <Well />
