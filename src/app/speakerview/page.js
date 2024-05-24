@@ -69,6 +69,24 @@ const SpeakerViews = () => {
     }
   };
 
+  const updatePriority = async (speakerId, newPriority) => {
+    try {
+      await firestore.collection("india-speakers").doc(speakerId).update({
+        priority: newPriority,
+      });
+      // Refresh the speakers list after updating priority
+      const updatedSpeakers = speakers.map((speaker) =>
+        speaker.id === speakerId
+          ? { ...speaker, priority: newPriority }
+          : speaker
+      );
+      setSpeakers(updatedSpeakers);
+      console.log("Speaker priority updated successfully!");
+    } catch (error) {
+      console.error("Error updating speaker priority:", error);
+    }
+  };
+
   return (
     <div>
       <Headtop head="Speaker Views" />
@@ -96,6 +114,18 @@ const SpeakerViews = () => {
                 <p className="text-lg font-medium mb-2">
                   Job Title: {speaker.jobTitle}
                 </p>
+                <p className="text-lg font-medium mb-2">
+                  Priority: {speaker.priority || "Undefined"}
+                </p>
+                <input
+                  type="number"
+                  placeholder="Set Priority"
+                  defaultValue={speaker.priority || ""}
+                  onChange={(e) =>
+                    updatePriority(speaker.id, parseInt(e.target.value, 10))
+                  }
+                  className="border rounded px-2 py-1 mb-2 w-full"
+                />
               </div>
               <button
                 className={`absolute top-2 right-20 ${
