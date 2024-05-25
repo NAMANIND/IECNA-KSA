@@ -1,10 +1,13 @@
 "use client";
 import * as React from "react";
 import Button from "@/components/button/Button";
+import { FaLocationDot } from "react-icons/fa6";
+
 import { anton, work_sans } from "@/styles/fonts";
 import { motion } from "framer-motion";
 import Marquee from "react-fast-marquee";
-import img2 from "../../../../public/images/Intersect2.png";
+import img2 from "../../../../public/images/location.jpg";
+import Image from "next/image";
 
 function Venue() {
   const offscreen = {
@@ -79,11 +82,20 @@ function Venue() {
                 <span className="text-white "> JULY 2024</span>
               </div>
               <div
-                className={`mt-0 tracking-tighter leading-[56px] max-md:mt-10 max-md:text-4xl max-md:leading-[52px] ${work_sans.className}`}
+                className={`mt-0 tracking-tighter leading-[56px] uppercase max-md:mt-10 max-md:text-4xl max-md:leading-[52px] ${work_sans.className}`}
               >
-                VENUE
-                <br />
-                MUMBAI
+                <a
+                  href="https://maps.app.goo.gl/fgS3tdowgfkmGcij9"
+                  target="_blank"
+                >
+                  Taj Lands End
+                  <br />
+                  <span className="flex flex-row gap-2">
+                    {" "}
+                    MUMBAI {"    "}
+                    <FaLocationDot />
+                  </span>
+                </a>
               </div>
             </div>
           </div>
@@ -95,9 +107,9 @@ function Venue() {
           className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full relative z-10   max-md:mt-3"
         >
           <div className="flex overflow-hidden relative flex-col grow justify-center items-center px-16 py-14 text-center uppercase  max-md:px-5 max-md:mt-10 max-md:max-w-full rounded-t-[40px] sm:bg-gradient-to-l bg-white from-white via-white to-black rotate-60 ">
-            <img
+            <Image
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/927df31f3a6db88ae4468b2806d1762f1ec57b14708866f7702a24ff4b6348e7?apiKey=5e27b1defd60460eaa6dca842133145f&"
+              src={img2}
               className="object-cover absolute inset-0 w-full h-full rounded-[40px]    "
             />
             <div className="relative bottom-0 left-0 flex w-full sm:flex-col flex-col items-center gap-4  text-lg text-white sm:h-full sm:justify-between md:gap-0">
@@ -115,6 +127,31 @@ function Venue() {
               </div>
             </div>
           </div>
+
+          {/* <div className="flex overflow-hidden relative flex-col grow justify-center items-center px-16 py-14 text-center uppercase  max-md:px-5 max-md:mt-10 max-md:max-w-full rounded-t-[40px] sm:bg-gradient-to-l bg-white from-white via-white to-black rotate-60 ">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.450570498883!2d72.81669337471995!3d19.043917452979905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c945f2fb1149%3A0xa2ba742a39963b31!2sTaj%20Lands%20End%2C%20Mumbai!5e0!3m2!1sen!2sin!4v1716661593473!5m2!1sen!2sin"
+              className="object-cover absolute inset-0 w-full h-full rounded-[40px]    "
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+            <div className="relative bottom-0 left-0 flex w-full sm:flex-col flex-col items-center gap-4  text-lg text-white sm:h-full sm:justify-between md:gap-0">
+              <div className="text-6xl text-transparent leading-[120px] max-md:text-4xl">
+                TAJ LANDS END
+              </div>
+              <div
+                className="sm:scale-100 scale-75 
+              
+              "
+              >
+                <Button href="./register" color="green" img="arrow">
+                  Location
+                </Button>
+              </div>
+            </div>
+          </div> */}
         </motion.div>
       </motion.div>
     </div>

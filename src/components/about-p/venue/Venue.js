@@ -3,6 +3,7 @@ import * as React from "react";
 import { anton, work_sans } from "@/styles/fonts";
 import Marquee from "react-fast-marquee";
 import Button from "@/components/button/Button";
+import { FaLocationDot } from "react-icons/fa6";
 
 import { motion } from "framer-motion";
 
@@ -36,10 +37,16 @@ function EventDetails() {
           </sup>
           <span className="text-white"> JULY 2024</span>
         </time>
-        <div className="self-end sm:mt-12 my-5 text-5xl  font-medium  text-[#ccff00] tracking-[4px]	 leading-[56px] w-[282px]  max-md:text-4xl max-md:leading-[52px]">
-          VENUE
-          <br />
-          MUMBAI
+        <div className="self-end sm:mt-12 my-5 text-5xl uppercase  font-medium  text-[#ccff00] tracking-[4px]	 leading-[56px]  max-md:text-4xl max-md:leading-[52px]">
+          <a href="https://maps.app.goo.gl/fgS3tdowgfkmGcij9" target="_blank">
+            Taj Lands End
+            <br />
+            <span className="flex flex-row  justify-end gap-2">
+              {" "}
+              MUMBAI {"    "}
+              <FaLocationDot />
+            </span>
+          </a>
         </div>
       </div>
     </>
@@ -130,7 +137,7 @@ function Venue() {
             <div className="flex overflow-hidden relative flex-col grow items-center px-16 pt-20 pb-12 text-2xl font-semibold text-center text-black uppercaseleading-[90px] min-h-[460px]  max-md:mt-0 max-md:max-w-full rounded-[36px] ">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f437b9ee47c5ec45b677804bf3ebcb7e7116cf67ea2bc8d3f00f64bde1e7e28?apiKey=5e27b1defd60460eaa6dca842133145f&"
+                src="/images/location.jpg"
                 className="object-cover absolute inset-0 size-full rounded-[36px] "
                 alt=""
               />
