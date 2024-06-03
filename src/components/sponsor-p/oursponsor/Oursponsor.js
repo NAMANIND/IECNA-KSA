@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import chef from "../../../../public/images/sponsors/insta.png";
 import fly from "../../../../public/images/sponsors/flybharti.png";
 import views from "../../../../public/images/sponsors/views.jpg";
+import soge from "../../../../public/images/sponsors/soge.png";
 import Image from "next/image";
 
 function Oursponsor() {
@@ -34,6 +35,14 @@ function Oursponsor() {
         "The platform provides brand awareness across various channels like web search engines, content and email marketing and provides measurable and transparent results.",
       imageUrl: "/images/sponsors/views-og.jpg",
       logoUrl: views,
+    },
+    {
+      title: "Lanyard Sponsor",
+      name: "Socio Genee",
+      description:
+        "Socio Genee is the leading platform offering 100% transparency and business growth for Influencers, focused on building communities to enhance and uplift the creator ecosystem.",
+      imageUrl: "/images/sponsors/soge-og.png",
+      logoUrl: soge,
     },
   ];
 
@@ -74,12 +83,12 @@ function Oursponsor() {
         support and contribution towards the success of the event.
       </motion.div>
       <div className="self-stretch mt-24 w-full max-md:mt-10 max-md:max-w-full">
-        <div className="flex gap-[3%] max-md:flex-col  max-md:gap-0">
+        <div className="flex gap-[3%] gap-y-14 flex-wrap max-md:flex-col  max-md:gap-0">
           {/* Map over sponsors array and render sponsor cards dynamically */}
           {sponsors.map((sponsor, index) => (
             <div
               key={index}
-              className="flex flex-wrap w-[32%] max-md:ml-0 max-md:w-full"
+              className="flex flex-wrap w-[31%] max-md:ml-0 max-md:w-full"
             >
               <div
                 className="flex flex-col grow pb-11 w-full text-2xl tracking-tighter 

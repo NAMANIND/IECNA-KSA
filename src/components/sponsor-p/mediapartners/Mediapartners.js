@@ -7,6 +7,10 @@ import Image from "next/image";
 import coin from "../../../../public/images/sponsors/coinpedia.png";
 import ply from "../../../../public/images/sponsors/deriveply.png";
 import gluf from "../../../../public/images/sponsors/gulf.png";
+import aitime from "../../../../public/images/sponsors/aitime.png";
+import cyberdefence from "../../../../public/images/sponsors/cyberdefence.png";
+import womenera from "../../../../public/images/sponsors/womenera.png";
+import impact from "../../../../public/images/sponsors/impact.png";
 
 function Mediapartners() {
   // Define data for sponsors
@@ -32,6 +36,34 @@ function Mediapartners() {
         "The platform provides brand awareness across various channels like web search engines, content and email marketing and provides measurable and transparent results.",
       imageUrl: "/images/sponsors/deriveply-og.jpg",
       logoUrl: ply,
+    },
+    {
+      name: "AI time journal",
+      description:
+        "AI Time Journal explores how Artificial Intelligence and Exponential Technologies bring opportunities for people, organizations, and societies to increase their wealth and health.",
+      imageUrl: "/images/sponsors/aitime-og.png",
+      logoUrl: aitime,
+    },
+    {
+      name: "Cyber defense Magazine",
+      description:
+        "Cyber Defense Magazine is by ethical, honest, passionate information security professionals for IT Security professionals.",
+      imageUrl: "/images/sponsors/cyberdefence-og.png",
+      logoUrl: cyberdefence,
+    },
+    {
+      name: "Woman’s Era",
+      description:
+        "Woman’s Era is one of the front runners in publications from Delhi Press. Woman’s Era editorial team strives to bring interesting, informative and useful articles and features to make your life beautiful.",
+      imageUrl: "/images/sponsors/womenera-og.png",
+      logoUrl: womenera,
+    },
+    {
+      name: "iMPACT",
+      description:
+        "iMPACT serves as a dedicated media outlet for nonprofits, civil society, and socially-focused businesses, offering curated news, trends, insights, and best practices from influential voices within the development sector.",
+      imageUrl: "/images/sponsors/impact-og.png",
+      logoUrl: impact,
     },
   ];
 
@@ -63,12 +95,12 @@ function Mediapartners() {
       </motion.div>
 
       <div className="self-stretch mt-24 w-full max-md:mt-10 max-md:max-w-full">
-        <div className="flex gap-[3%] max-md:flex-col  max-md:gap-0">
+        <div className="flex gap-[3%] gap-y-14 flex-wrap  max-md:flex-col max-md:gap-0">
           {/* Map over sponsors array and render sponsor cards dynamically */}
           {sponsors.map((sponsor, index) => (
             <div
               key={index}
-              className="flex flex-wrap w-[32%] max-md:ml-0 max-md:w-full"
+              className="flex flex-wrap w-[31%] max-md:ml-0 max-md:w-full"
             >
               <div
                 className="flex flex-col grow pb-11 w-full text-2xl tracking-tighter 
