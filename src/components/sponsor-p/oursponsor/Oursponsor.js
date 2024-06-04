@@ -41,7 +41,7 @@ function Oursponsor() {
       name: "Socio Genee",
       description:
         "Socio Genee is the leading platform offering 100% transparency and business growth for Influencers, focused on building communities to enhance and uplift the creator ecosystem.",
-      imageUrl: "/images/sponsors/soge-og.png",
+      imageUrl: "/images/sponsors/soge-og.jpg",
       logoUrl: soge,
     },
   ];
