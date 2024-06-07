@@ -36,6 +36,7 @@ function Mediapartners() {
         "The platform provides brand awareness across various channels like web search engines, content and email marketing and provides measurable and transparent results.",
       imageUrl: "/images/sponsors/deriveply-og.jpg",
       logoUrl: ply,
+      link: "https://www.driveply.com/ ",
     },
     {
       name: "AI time journal",
@@ -43,6 +44,7 @@ function Mediapartners() {
         "AI Time Journal explores how Artificial Intelligence and Exponential Technologies bring opportunities for people, organizations, and societies to increase their wealth and health.",
       imageUrl: "/images/sponsors/aitime-og.png",
       logoUrl: aitime,
+      link: "https://www.aitimejournal.com/",
     },
     {
       name: "Cyber defense Magazine",
@@ -50,6 +52,7 @@ function Mediapartners() {
         "Cyber Defense Magazine is by ethical, honest, passionate information security professionals for IT Security professionals.",
       imageUrl: "/images/sponsors/cyberdefence-og.png",
       logoUrl: cyberdefence,
+      link: "https://www.cyberdefensemagazine.com/",
     },
     {
       name: "Woman’s Era",
@@ -57,6 +60,7 @@ function Mediapartners() {
         "Woman’s Era is one of the front runners in publications from Delhi Press. Woman’s Era editorial team strives to bring interesting, informative and useful articles and features to make your life beautiful.",
       imageUrl: "/images/sponsors/womenera-og.png",
       logoUrl: womenera,
+      link: "https://www.womansera.com/",
     },
     {
       name: "iMPACT",
@@ -64,6 +68,7 @@ function Mediapartners() {
         "iMPACT serves as a dedicated media outlet for nonprofits, civil society, and socially-focused businesses, offering curated news, trends, insights, and best practices from influential voices within the development sector.",
       imageUrl: "/images/sponsors/impact-og.png",
       logoUrl: impact,
+      link: "https://theimpactmagazine.org/",
     },
   ];
 
@@ -126,11 +131,13 @@ function Mediapartners() {
                   <div className="mt-6 text-sm tracking-tight leading-5">
                     {sponsor.description}
                   </div>
-                  <Image
-                    loading="lazy"
-                    src={sponsor.logoUrl}
-                    className="mt-20 max-w-full aspect-[2.13] w-[114px] max-md:mt-10"
-                  />
+                  <a href={sponsor.link} target="_blank">
+                    <Image
+                      loading="lazy"
+                      src={sponsor.logoUrl}
+                      className="mt-20 max-w-full aspect-[2.13] w-[114px] max-md:mt-10"
+                    />
+                  </a>
                 </motion.div>
               </div>
             </div>
