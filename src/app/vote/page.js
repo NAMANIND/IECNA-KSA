@@ -16,7 +16,6 @@ const Voting = () => {
     "Best Travel Influencer of the Year",
     "Best Beauty Influencer of the Year",
     "Best Health & Wellbeing Influencer of the Year",
-    "Best Tech Influencer",
     "Best Financial Influencer Award",
     "Gaming Influencer of the Year",
     "Blogger of the year",

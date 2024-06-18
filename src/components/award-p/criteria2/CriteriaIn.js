@@ -12,7 +12,7 @@ function CriteriaIn() {
   );
 
   const [selectedHeading2, setSelectedHeading2] = useState(
-    "Best Tech Influencer"
+    "Best Financial Influencer Award"
   );
 
   // Define data structure to store headings, descriptions, and criteria
@@ -131,17 +131,6 @@ function CriteriaIn() {
   ];
 
   const data2 = [
-    {
-      "Best Tech Influencer": {
-        description:
-          "Honouring the influencer who educates and entertains audiences with insights into the latest technology trends, gadgets, and innovations.",
-        criteria: [
-          "Expertise in technology-related topics.",
-          "Insights and analysis of technology trends.",
-          "Engagement and interaction with tech enthusiasts.",
-        ],
-      },
-    },
     {
       "Best Financial Influencer Award": {
         description:
