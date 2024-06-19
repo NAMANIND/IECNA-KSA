@@ -208,6 +208,7 @@ const DelegateRegistrationForm = () => {
             <option value="">Select Field</option>
             <option value="delegate">delegate</option>
             <option value="nomination">Nomination</option>
+            <option value="speaker">Speaker</option>
           </select>
         </div>
 
