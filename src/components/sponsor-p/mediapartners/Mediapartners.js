@@ -11,6 +11,7 @@ import aitime from "../../../../public/images/sponsors/aitime.png";
 import cyberdefence from "../../../../public/images/sponsors/cyberdefence.png";
 import womenera from "../../../../public/images/sponsors/womenera.png";
 import impact from "../../../../public/images/sponsors/impact.png";
+import buisness from "../../../../public/images/sponsors/business.png";
 
 function Mediapartners() {
   // Define data for sponsors
@@ -69,6 +70,14 @@ function Mediapartners() {
       imageUrl: "/images/sponsors/impact-og.png",
       logoUrl: impact,
       link: "https://theimpactmagazine.org/",
+    },
+    {
+      name: "Business outreach",
+      description:
+        "Business Outreach is one of the fastest growing business magazines in India, where CEOs, CXOs and top executives of a company share their insights about their industry and initiate productive discussion about the latest market trends with the editorial staff and peers.",
+      imageUrl: "images/sponsors/business-og.png",
+      logoUrl: buisness,
+      link: "https://www.businessoutreach.in/",
     },
   ];
 
