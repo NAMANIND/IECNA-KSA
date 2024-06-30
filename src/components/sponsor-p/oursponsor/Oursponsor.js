@@ -7,6 +7,7 @@ import chef from "../../../../public/images/sponsors/insta.png";
 import fly from "../../../../public/images/sponsors/flybharti.png";
 import views from "../../../../public/images/sponsors/views.jpg";
 import soge from "../../../../public/images/sponsors/soge.png";
+import greenroom from "../../../../public/images/sponsors/greenroom.png";
 import Image from "next/image";
 
 function Oursponsor() {
@@ -47,6 +48,15 @@ function Oursponsor() {
       imageUrl: "/images/sponsors/soge-og.jpg",
       logoUrl: soge,
       link: "https://sociogenee.com/",
+    },
+    {
+      title: "Solution Partner",
+      name: "Greenroom now",
+      description:
+        "Greenroom is a content and influencer marketing agency based in Bangalore and Mumbai. We believe in turning attention to retention: crafting long-term impact. We are here for brands and creators who are looking to navigate and thrive in the attn economy and work with some of the top brands in the country.",
+      imageUrl: "/images/sponsors/greenroom-og.png",
+      logoUrl: greenroom,
+      link: "https://www.greenroomnow.com/",
     },
   ];
 
