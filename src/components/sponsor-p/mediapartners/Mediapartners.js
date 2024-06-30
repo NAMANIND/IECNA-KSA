@@ -11,6 +11,7 @@ import aitime from "../../../../public/images/sponsors/aitime.png";
 import cyberdefence from "../../../../public/images/sponsors/cyberdefence.png";
 import womenera from "../../../../public/images/sponsors/womenera.png";
 import impact from "../../../../public/images/sponsors/impact.png";
+
 import business from "../../../../public/images/sponsors/business.png";
 
 function Mediapartners() {
