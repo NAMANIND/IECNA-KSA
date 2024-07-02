@@ -226,7 +226,7 @@ const Voting = () => {
 
   return (
     <div>
-      <Headtop head="Voting" />
+      <Headtop head="Voting" opacity={true} />
       <div className={` mx-auto p-8 bg-white ${work_sans.className} `}>
         <h1
           className={`text-4xl font-semibold my-20 w-full uppercase text-center ${anton.className} `}

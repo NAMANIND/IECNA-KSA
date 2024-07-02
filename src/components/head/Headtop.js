@@ -6,7 +6,7 @@ import sponsors from "../../../public/images/head/sponsors.jpg";
 import speakers from "../../../public/images/head/speakers.jpg";
 import register from "../../../public/images/head/register.jpg";
 import register2 from "../../../public/images/head/register.png";
-import votee from "../../../public/images/head/vote2.png";
+import votee from "../../../public/images/head/votingend.jpg";
 import voteb from "../../../public/images/head/voteb.png";
 import Image from "next/image";
 
