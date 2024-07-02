@@ -8,9 +8,13 @@ import register from "../../../public/images/head/register.jpg";
 import register2 from "../../../public/images/head/register.png";
 import votee from "../../../public/images/head/votingend.jpg";
 import voteb from "../../../public/images/head/voteb.png";
+import votemob from "../../../public/images/head/votemob.jpg";
 import Image from "next/image";
 
 function Headtop({ head, opacity }) {
+  // is mobile view?
+
+  const ismobileView = window.innerWidth < 768;
   const lower = head.toLowerCase();
   let url = headimg;
 
@@ -27,7 +31,7 @@ function Headtop({ head, opacity }) {
     url = register;
   }
   if (lower === "voting") {
-    url = votee;
+    url = ismobileView ? votemob : votee;
   }
   if (lower === "event registration") {
     url = register2;
