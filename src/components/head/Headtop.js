@@ -1,4 +1,6 @@
+"use client";
 import * as React from "react";
+import { useState, useEffect } from "react";
 import { anton } from "@/styles/fonts";
 import headimg from "../../../public/images/head/head.jpg";
 import awards from "../../../public/images/head/awards.jpg";
@@ -14,7 +16,26 @@ import Image from "next/image";
 function Headtop({ head, opacity }) {
   // is mobile view?
 
-  const ismobileView = window.innerWidth < 768;
+  // State to determine if it's mobile view
+  const [ismobileView, setIsMobileView] = useState(false);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobileView(window.innerWidth < 768);
+    };
+
+    // Check window availability and add event listener
+    if (typeof window !== "undefined") {
+      setIsMobileView(window.innerWidth < 768);
+      window.addEventListener("resize", handleResize);
+    }
+
+    // Clean up event listener
+    return () => {
+      if (typeof window !== "undefined") {
+        window.removeEventListener("resize", handleResize);
+      }
+    };
+  }, []);
   const lower = head.toLowerCase();
   let url = headimg;
 
