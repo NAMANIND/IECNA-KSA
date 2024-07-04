@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { firestore } from "../../../../firbase/clientApp";
 import Headtop from "@/components/head/Headtop";
+import { anton, work_sans } from "@/styles/fonts";
 
 const PersonalVote = ({ params }) => {
   const { name } = params;
@@ -150,6 +151,28 @@ const PersonalVote = ({ params }) => {
   };
 
   const [firstName, lastName] = name.toLowerCase().split("_");
+  const votingclosed = true;
+  if (votingclosed) {
+    return (
+      <div>
+        <Headtop head="Voting" opacity={true} />
+        <div className={` mx-auto p-8 bg-white ${anton.className} `}>
+          <h1
+            className={`text-4xl font-semibold my-20 w-full uppercase text-center ${anton.className} `}
+          >
+            Voting is closed
+          </h1>
+          <p className={`text-center text-2xl  ${work_sans.className} `}>
+            Thank you for your interest in voting for{" "}
+            <span className="text-3xl font-semibold uppercase mb-8 text-center ">
+              {firstName} {lastName}
+            </span>
+            .<br /> Voting is now closed. <br /> Winners will be announced soon.
+          </p>
+        </div>
+      </div>
+    );
+  }
   return (
     <div>
       <Headtop head="Vote for me" opacity={true} />
