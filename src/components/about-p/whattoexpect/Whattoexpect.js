@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import engaging from "../../../../public/images/aboutnew/engaging.jpg";
 import curated from "../../../../public/images/aboutnew/curated.jpg";
 import future from "../../../../public/images/about/future.jpg";
-import top from "../../../../public/images/about/top.jpg";
+import top from "../../../../public/images/aboutnew/top.jpg";
 
 import Image from "next/image";
 function Whattoexpect() {
