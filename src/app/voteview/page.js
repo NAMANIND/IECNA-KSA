@@ -58,7 +58,7 @@ const VoteViews = () => {
     const fetchNominees = async () => {
       try {
         const nomineesSnapshot = await firestore
-          .collection("india-nominees")
+          .collection("india-nominees2025")
           .get();
         const nomineesData = nomineesSnapshot.docs.map((doc) => ({
           id: doc.id,
@@ -113,7 +113,7 @@ const VoteViews = () => {
     if (isConfirmed) {
       try {
         const nomineeRef = firestore
-          .collection("india-nominees")
+          .collection("india-nominees2025")
           .doc(nomineeId);
         const nomineeDoc = await nomineeRef.get();
         const nomineeData = nomineeDoc.data();

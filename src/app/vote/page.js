@@ -53,7 +53,7 @@ const Voting = () => {
     const fetchNominees = async () => {
       try {
         const nomineesSnapshot = await firestore
-          .collection("india-nominees")
+          .collection("india-nominees2025")
           .get();
         const nomineesData = nomineesSnapshot.docs.map((doc) => ({
           id: doc.id,
@@ -164,13 +164,13 @@ const Voting = () => {
 
       if (!isNewEmail) {
         // Add the email to the votes collection if it's a new email
-        const voteRef = firestore.collection("india-votes").doc();
+        const voteRef = firestore.collection("india-votes2025").doc();
         batch.set(voteRef, { email: email, social: social }); // Include social media handle
       }
       for (const nomineeSelection of selectedNominees) {
         const { category, nomineeId } = nomineeSelection;
         const nomineeRef = firestore
-          .collection("india-nominees")
+          .collection("india-nominees2025")
           .doc(nomineeId);
         const nomineeSnapshot = await nomineeRef.get();
 
@@ -214,7 +214,7 @@ const Voting = () => {
   const checkEmailExists = async (email) => {
     try {
       const query = await firestore
-        .collection("india-votes")
+        .collection("india-votes2025")
         .where("email", "==", email)
         .get();
       return !query.empty;

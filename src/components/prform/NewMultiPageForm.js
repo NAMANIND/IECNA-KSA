@@ -260,7 +260,7 @@ const NewMultiPageForm = ({ to, name }) => {
       setrtype("nomination");
       const imageRef = storage
         .ref()
-        .child(`india-nomination-image/${formData.image.name}`);
+        .child(`india-nomination-image2025/${formData.image.name}`);
       await imageRef.put(formData.image);
       const imageUrl = await imageRef.getDownloadURL();
       setimgu(imageUrl);
@@ -314,10 +314,10 @@ const NewMultiPageForm = ({ to, name }) => {
 
       await Sendemail(to, subject, html);
 
-      const nomineeRef = firestore.collection("india-nominees").doc();
+      const nomineeRef = firestore.collection("india-nominees2025").doc();
       const nomineeId = nomineeRef.id;
       const nomineeQuery = firestore
-        .collection("india-nominees")
+        .collection("india-nominees2025")
         .where(
           "firstName",
           "==",
@@ -356,7 +356,7 @@ const NewMultiPageForm = ({ to, name }) => {
           });
 
           await firestore
-            .collection("india-nominees")
+            .collection("india-nominees2025")
             .doc(nomineeId2)
             .update({
               categories: { ...updatedCategories },
@@ -426,7 +426,7 @@ const NewMultiPageForm = ({ to, name }) => {
     } else {
       const imageRef = storage
         .ref()
-        .child(`india-delegate-image/${formData.image.name}`);
+        .child(`india-delegate-image2025/${formData.image.name}`);
       await imageRef.put(formData.image);
       const imageUrl2 = await imageRef.getDownloadURL();
       setimgu(imageUrl2);
@@ -469,7 +469,7 @@ const NewMultiPageForm = ({ to, name }) => {
 
       await Sendemail(to, subject, html);
 
-      const nomineeRef = firestore.collection("india-delegates").doc();
+      const nomineeRef = firestore.collection("india-delegates2025").doc();
       const nomineeId = nomineeRef.id;
 
       await nomineeRef.set({

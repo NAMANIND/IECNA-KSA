@@ -220,12 +220,12 @@ const Spkrform = () => {
       // Upload image to Firebase storage
       const imageRef = storage
         .ref()
-        .child(`india-speakers-image/${formData.image.name}`);
+        .child(`india-speakers-image2025/${formData.image.name}`);
       await imageRef.put(formData.image);
       const imageUrl = await imageRef.getDownloadURL();
       setSelectedImageurl(imageUrl);
 
-      const nomineeRef = firestore.collection("india-speakers").doc();
+      const nomineeRef = firestore.collection("india-speakers2025").doc();
       const nomineeId = nomineeRef.id;
 
       // Save speaker details to Firestore
