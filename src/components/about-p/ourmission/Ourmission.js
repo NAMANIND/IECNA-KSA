@@ -36,10 +36,14 @@ function Ourmisson() {
         viewport={{ once: true, amount: 0.3 }}
         className={`mt-20 sm:px-60 px-5 text-2xl font-medium tracking-tighter leading-8 max-md:mt-10 max-md:max-w-full ${work_sans.className} `}
       >
-        At Influence Exchange Confex and Awards, we are dedicated to fostering
-        connections, inspiring creativity, and acknowledging the efforts of
-        influencers and marketers who are leading transformative initiatives
-        across various sectors.
+        At The Influence Exchange Confex & Awards 2.0, our mission is to build a
+        transformative platform that fosters meaningful connections, inspires
+        creativity, and celebrates excellence. We aim to bring together
+        marketers, influencers, and tech leaders who are shaping the future of
+        digital storytelling and innovation. This event is dedicated to
+        empowering stakeholders to embrace the ever-evolving landscape of
+        influencer marketing while recognizing those leading transformative
+        campaigns and initiatives.
       </motion.p>
 
       <div

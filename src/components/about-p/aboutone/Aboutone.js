@@ -170,26 +170,42 @@ function Aboutone() {
           initial={offscreen}
           whileInView={onscreen}
           viewport={{ once: true, amount: 0.3 }}
-          className="sm:text-2xl text-lg  sm:px-20 px-0 font-medium text-justify tracking-tighter leading-8 text-white max-md:max-w-full slidein"
+          className="sm:text-md text-xl  sm:px-20 px-0 font-medium text-justify tracking-tighter leading-6 text-white max-md:max-w-full slidein"
         >
-          The Influence Exchange Confex and Awards in India presents a fantastic
-          opportunity to bring together industry leaders, innovators, marketers
-          and influencers from various sectors to exchange insights, ideas, and
-          celebrate outstanding achievements. With India's dynamic and rapidly
-          growing economy, there's undoubtedly a wealth of talent and
-          innovation. <br />
-          <br /> The India edition of the Influence Exchange Confex and Awards
-          has the potential to foster collaboration, inspire new ideas, and
-          strengthen connections within the global influencer community. It
-          could also serve as a platform to highlight India's contributions to
-          innovation and progress on the world stage.
-          <br /> <br /> The event would feature keynote speeches, panel
-          discussions, and networking sessions focused on pertinent topics
-          shaping the landscape of influence and marketing in India.
-          <br /> <br /> Join us on the 12th July 2024 for the 3rd Edition of
-          India Exchange Confex & Awards Series and get the chance to be part of
-          an event that's shaping the future of influence and innovation in
-          India and beyond.
+          Welcome to the 5th Edition of{" "}
+          <strong>The Influence Exchange Confex & Awards 2025</strong>—the
+          ultimate platform for marketers, influencers, and tech innovators to
+          shape the future of Influencer Marketing, MarTech, and AdTech. This
+          milestone event will bring together over 200 thought leaders,
+          creators, and decision-makers in an engaging and elegant setting,
+          creating an unparalleled space for innovation, collaboration, and
+          celebration.
+          <br />
+          <br />
+          This year’s edition will feature dynamic panel discussions led by
+          industry pioneers, exclusive presentations showcasing cutting-edge
+          campaigns and tools, and a prestigious awards ceremony to honor
+          excellence in influencer marketing. Participants will gain actionable
+          insights, explore the latest trends, and uncover strategies to amplify
+          their marketing impact, making this event a catalyst for professional
+          growth and success.
+          <br />
+          <br />
+          With immersive networking opportunities in a gala setting, hands-on
+          collaborative workshops, and tailored business dialogues, the event
+          offers a 360-degree experience for all attendees. Whether you're a
+          marketer, creator, or tech innovator,{" "}
+          <strong>The Influence Exchange Confex & Awards 2025</strong> is your
+          gateway to forging meaningful partnerships, celebrating achievements,
+          and redefining the future of marketing.
+          <br />
+          <br />
+          <span className="text-[#ccff00]">
+            Don't miss out on this remarkable gathering of like-minded
+            professionals. Join us at the Influence Exchange Confex and Awards
+            2.0 Series India 2025 to unlock the full potential of ad tech, mar
+            tech & influencer marketing in today's digital landscape.
+          </span>
         </motion.p>
         <motion.div
           initial={offscreen}

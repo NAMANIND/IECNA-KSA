@@ -13,30 +13,41 @@ function Whattoexpect() {
   // Sample data for cards
   const cardData = [
     {
-      title: "Engaging Interactions",
+      title: "Inspiring Interactions",
       imgUrl: engaging,
       description:
-        "Immerse yourself in a vibrant atmosphere where marketeers and influencers converge to share ideas, insights, and business prospects, fostering genuine connections and collaborations.",
+        "Dive into a dynamic environment where marketers and influencers come together to exchange ideas, spark collaborations, and explore business opportunities that extend far beyond the event.",
     },
     {
-      title: "Curated Program",
+      title: "Expert-Led Program",
       imgUrl: curated,
       description:
-        "Dive into a carefully designed agenda featuring keynote speeches, interactive panel discussions, and hands-on workshops, providing actionable strategies and practical knowledge to drive success in influencer marketing.",
+        "Engage with a meticulously curated agenda featuring keynote sessions, dynamic panel discussions, hands-on workshops, and immersive networking opportunities. Every moment is designed to deliver impactful content and foster meaningful connections.",
     },
     {
-      title: "Top-Notch Insights",
+      title: "Cutting-Edge Insights",
       imgUrl: top,
       description:
-        "Rub shoulders with industry leaders and experts, gaining valuable insights and establishing significant relationships that transcend the event, empowering you to stay ahead of industry trends and developments.",
+        "Gain exclusive knowledge from leading influencers, marketers, and innovators, offering fresh perspectives on navigating the rapidly evolving landscape of influencer marketing, MarTech, and AdTech.",
     },
     {
-      title: "Future of Marketing",
+      title: "The Future of Marketing",
       imgUrl: future,
       description:
-        "Explore the latest trends and technologies in MarTech and AdTech, uncovering innovative approaches and cutting-edge solutions to reshape the future of marketing and influencer collaboration.",
+        "Stay ahead with insights into the latest trends, emerging technologies, and transformative strategies shaping the future of marketing and influencer collaboration.",
     },
-    // Add more objects as needed
+    {
+      title: "Opportunities for All",
+      imgUrl: engaging,
+      description:
+        "Whether you're a marketer exploring creative strategies or an influencer seeking authentic brand partnerships, this platform opens doors to new possibilities, helping you build relationships that drive success.",
+    },
+    {
+      title: "Industry Expertise",
+      imgUrl: top,
+      description:
+        "Learn from the best in the business as experts share actionable strategies, practical knowledge, and real-world case studies to unlock the full potential of your influencer marketing campaigns.",
+    },
   ];
 
   const offscreen = {
@@ -76,9 +87,12 @@ function Whattoexpect() {
         viewport={{ once: true, amount: 0.3 }}
         className={`mt-10 text-2xl  sm:px-20 px-5 font-medium tracking-tighter leading-8 text-center text-black max-md:mt-10 max-md:max-w-full ${work_sans.className} `}
       >
-        At the to Influence Exchange Confex & Awards Series 2024, expect an
-        unforgettable experience <br /> filled with engaging interactions,
-        curated content, and invaluable insights:
+        The Influence Exchange Confex & Awards 2.0 in India is set to be an
+        extraordinary experience, blending inspiration, learning, and
+        celebration in the dynamic realm of influencer marketing. This event
+        promises to deliver invaluable perspectives, actionable insights, and
+        unmatched opportunities to propel your marketing and influencer
+        collaborations to new heights.
       </motion.div>
 
       <div className="w-full max-md:mt-10 max-md:max-w-full sm:p-20 p-5">
