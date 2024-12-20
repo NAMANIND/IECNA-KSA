@@ -148,11 +148,16 @@ function Whyattend() {
                 viewport={{ once: true, amount: 0.3 }}
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
-                className={`transform transition-all duration-300 ${
+                className={`transform transition-all duration-300  ${
                   hoveredIndex === index ? "scale-[1.02]" : ""
                 }`}
               >
-                <div className=" bg-white mis group hover:bg-black transition-all duration-500 hover:text-white text-wrap  rounded-3xl overflow-hidden h-full shadow-xl">
+                <div
+                  className=" bg-white mis group hover:bg-black transition-all duration-500 hover:text-white text-wrap  rounded-3xl overflow-hidden h-full shadow-md"
+                  style={{
+                    boxShadow: " 0px 0px 30px 0 rgba(81, 182, 255, 0.3)",
+                  }}
+                >
                   {/* Card Header */}
                   <div className="p-8 md:p-10">
                     <h2
