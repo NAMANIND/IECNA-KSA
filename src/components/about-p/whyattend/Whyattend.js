@@ -45,11 +45,11 @@ function Whyattend() {
       imageUrl: exclusive,
       text: "Access exclusive brand partnerships, mentorships, and monetization strategies to elevate your career to new heights.",
     },
-    // {
-    //   title: "Showcase Your Breakthroughs",
-    //   imageUrl: buiness,
-    //   text: "Present your MarTech and AdTech solutions to a room filled with decision-makers, brands, and agencies eager for innovation.",
-    // },
+    {
+      title: "Showcase Your Breakthroughs",
+      imageUrl: buiness,
+      text: "Present your MarTech and AdTech solutions to a room filled with decision-makers, brands, and agencies eager for innovation.",
+    },
     {
       title: "Shape the Future of Marketing",
       imageUrl: insights,
@@ -76,6 +76,21 @@ function Whyattend() {
     transition: {
       delay: 0.1,
       duration: 0.41,
+    },
+  };
+
+  const fadeInUp = {
+    hidden: {
+      y: 100,
+      opacity: 0,
+    },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        delay: 0.1,
+        duration: 0.41,
+      },
     },
   };
 
@@ -124,39 +139,55 @@ function Whyattend() {
       {/* Render each card dynamically */}
       <div className="self-stretch mt-2 w-full max-md:max-w-full">
         <div className="flex gap-y-5 sm:px-[5%] px-[0%] gap-x-[6%] flex-wrap max-md:gap-0 ">
-          {cardData.map((card, index) => (
-            <motion.div
-              initial={offscreen}
-              whileInView={onscreen}
-              viewport={{ once: true, amount: 0.3 }}
-              key={index}
-              className={`flex flex-grow flex-col w-[47%] max-md:ml-0 max-md:w-full my-[30px] sm:px-[30px] px-[10px] ${
-                hoveredIndex === index ? "hoveredaward" : ""
-              }`}
-              onMouseEnter={() => setHoveredIndex(index)}
-              onMouseLeave={() => setHoveredIndex(null)}
-            >
-              <div className="bg-black w-full h-full rounded-[36px] py-[60px]">
-                <div
-                  className={`text-7xl textaward  text-white uppercase leading-[80px] max-md:mt-10 max-md:text-4xl max-md:leading-[49px] px-[40px] ${anton.className} whitespace-pre-line `}
-                >
-                  {card.title}
-                </div>
-                <div className="flex flex-col self-stretch my-auto text-xl font-medium leading-6 text-white max-md:mt-10 max-md:max-w-full">
-                  <Image
-                    loading="lazy"
-                    src={card.imageUrl}
-                    width={600}
-                    height={300}
-                    className="w-full aspect-[2.38] max-md:max-w-full rounded-[32px] relative scale-[1.12]  my-10 imgaward"
-                  />
-                  <div className="self-center mt-11 max-md:mt-10 px-[40px]">
-                    {card.text}
+          <div className="grid grid-cols-2 gap-8 md:px-4 md:py-12 mx-auto max-w-7xl py-0 px-0 max-md:grid-cols-1">
+            {cardData.map((card, index) => (
+              <motion.div
+                key={index}
+                initial={offscreen}
+                whileInView={onscreen}
+                viewport={{ once: true, amount: 0.3 }}
+                onMouseEnter={() => setHoveredIndex(index)}
+                onMouseLeave={() => setHoveredIndex(null)}
+                className={`transform transition-all duration-300 ${
+                  hoveredIndex === index ? "scale-[1.02]" : ""
+                }`}
+              >
+                <div className=" bg-white mis group hover:bg-black transition-all duration-500 hover:text-white text-wrap  rounded-3xl overflow-hidden h-full shadow-xl">
+                  {/* Card Header */}
+                  <div className="p-8 md:p-10">
+                    <h2
+                      className={`text-7xl max-md:text-4xl font-bold text-[#51B6FF] tracking-tight leading-tight
+                    ${anton.className}
+                    uppercase   w-full   group-hover:text-[#ccff00]
+                    `}
+                    >
+                      {card.title}
+                    </h2>
+                  </div>
+
+                  {/* Card Image */}
+                  <div className="relative px-4">
+                    <div className="relative overflow-hidden rounded-2xl">
+                      <Image
+                        src={card.imageUrl}
+                        alt={card.title}
+                        width={600}
+                        height={300}
+                        className="w-full  object-cover h-[300px]  transition-all duration-500 group-hover:scale-110 group-hover:-rotate-3"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Card Content */}
+                  <div className="p-8 md:p-10">
+                    <p className=" text-neutral-950 text-xl  font-medium group-hover:text-white leading-7">
+                      {card.text}
+                    </p>
                   </div>
                 </div>
-              </div>
-            </motion.div>
-          ))}
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

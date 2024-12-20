@@ -62,9 +62,9 @@ function Ig() {
           </h1>
           <time
             className={`mt-7 text-5xl text-white leading-[90px] max-md:text-4xl ${anton.className}`}
-            dateTime="2024-07-12"
+            dateTime="2025-04-30"
           >
-            12<sup className="text-white">TH</sup> JULY 2024
+            30<sup className="text-white">TH</sup> APRIL 2025
           </time>
           <p className="mt-5 text-[#ccff00] uppercase leading-[117%]  sm:mb-0 mb-4  font-bold">
             MUMBAI

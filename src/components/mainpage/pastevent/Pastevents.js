@@ -101,7 +101,7 @@ function Pastevents() {
               <h2
                 className={`mt-5 text-2xl tracking-tighter  ${work_sans.className} `}
               >
-                12<sup>th</sup> July 2024{" "}
+                30<sup>th</sup> APRIL 2025{" "}
               </h2>
             </div>
           </div>
@@ -135,7 +135,7 @@ function Pastevents() {
               <h2
                 className={`mt-5 text-2xl tracking-tighter  ${work_sans.className} `}
               >
-                19<sup>th</sup> September 2024
+                19<sup>th</sup> September 2025
               </h2>
             </div>
           </div>
@@ -170,7 +170,7 @@ function Pastevents() {
               <h2
                 className={`mt-5 text-2xl tracking-tighter  ${work_sans.className} `}
               >
-                15<sup>th</sup> November 2024
+                15<sup>th</sup> November 2025
               </h2>
             </div>
           </div>

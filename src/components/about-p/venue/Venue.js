@@ -21,7 +21,7 @@ function EventDetails() {
   return (
     <>
       <p className={`text-md   text-white font-light   ${work_sans.className}`}>
-        Influence Exchange Confex & Awards Series 2024 will take place at a
+        Influence Exchange Confex & Awards Series 2025 will take place at a
         prestigious venue in India, providing a luxurious and conducive
         environment for networking, learning, and collaboration. Stay tuned for
         more details on the venue, and get ready to experience an event like no
@@ -31,11 +31,11 @@ function EventDetails() {
         className={`flex flex-col pl-14 mt-14 max-md:pl-5 max-md:mt-10 max-md:max-w-full ${anton.className}  `}
       >
         <time className=" text-7xl text-white max-md:text-4xl">
-          <span className="text-white">12</span>
+          <span className="text-white">30</span>
           <sup>
             <span className="text-white">th</span>
           </sup>
-          <span className="text-white"> JULY 2024</span>
+          <span className="text-white"> APRIL 2025</span>
         </time>
         <div className="self-end sm:mt-12 my-5 text-5xl uppercase  font-medium  text-[#ccff00] tracking-[4px]	 leading-[56px]  max-md:text-4xl max-md:leading-[52px]">
           <a href="https://maps.app.goo.gl/fgS3tdowgfkmGcij9" target="_blank">
