@@ -521,6 +521,29 @@ const NewMultiPageForm = ({ to, name }) => {
       "linear-gradient(to right, transparent 0%, #000 15%, #000 85%, transparent 100%)",
   };
 
+  if (
+    typeof window !== "undefined" &&
+    navigator.userAgent.includes("Instagram")
+  ) {
+    return (
+      <div className="fixed z-50 top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
+        <div
+          className="flex flex-col items-center justify-center h-full min-h-[200px] gap-4 text-center
+      w-full bg-white text-black font-light p-8
+      "
+        >
+          <h1 className=" font-bold ">Instagram Browser is not supported</h1>
+          <p>
+            Please copy and paste the URL into your browser to access the page
+          </p>
+          <Snippet symbol="$" variant="bordered" color="default" className=" ">
+            {`https://india.theiena.com/event/${name}`}
+          </Snippet>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div
       className={` sm:p-20 p-5 bg-white text-2xl ${work_sans.className} font-extralight`}
