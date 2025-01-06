@@ -96,6 +96,18 @@ function Navbar() {
                     REGISTER
                   </a>
                 </li>
+                <li className="relative group">
+                  <a
+                    href="https://india2024.theiena.com/"
+                    target="_blank"
+                    className="transition-all duration-300 hover:text-[#ccff00]"
+
+                    // [text-shadow:_0_0_25px_#ccff00,_0_0_35px_#ccff00]
+                  >
+                    INDIA2024
+                  </a>
+                </li>
+
                 <li>
                   <a href="/vote" className=" hover:text-[#ccff00]">
                     VOTE
@@ -158,6 +170,17 @@ function Navbar() {
             <li>
               <a href="/register" className=" hover:text-[#ccff00]">
                 REGISTER
+              </a>
+            </li>
+            <li className="relative group">
+              <a
+                href="https://india2024.theiena.com/"
+                target="_blank"
+                className="transition-all duration-300 hover:text-[#ccff00]"
+
+                // [text-shadow:_0_0_25px_#ccff00,_0_0_35px_#ccff00]
+              >
+                INDIA2024
               </a>
             </li>
             <li>
