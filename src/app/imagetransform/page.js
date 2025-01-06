@@ -16,6 +16,7 @@ function ImageDownloadPage({
   email,
 }) {
   const [transformedImageUrl, setTransformedImageUrl] = useState(null);
+  const [displayed, setDisplayed] = useState(true);
 
   // useEffect(() => {
 
@@ -49,6 +50,12 @@ function ImageDownloadPage({
   const handleDownload = () => {
     fileDownload(imageData, `${title}.jpg`);
   };
+
+  useEffect(() => {
+    if (!displayed) {
+      handleDownloadTransformed();
+    }
+  }, [displayed]);
 
   const handleDownloadTransformed = () => {
     if (transformedImageUrl) {
@@ -125,17 +132,23 @@ function ImageDownloadPage({
       if (field === "marketer") {
         const transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `l_iecna_upload_india:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_255,h_255,x_0,y_55,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_38_bold_normal_left:${encodeURIComponent(
+          `l_iecna_upload_india:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-22,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_0,y_350/ntgqq5e6s37tamyux4io.jpg`;
+          )}/fl_layer_apply,x_0,y_310/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+            company
+          )}/fl_layer_apply,x_0,y_360/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+            marco
+          )}/fl_layer_apply,x_0,y_400/jvmzeukgdwi2qwvrlbbv.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       } else {
         const transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `l_iecna_upload_india:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_255,h_255,x_0,y_55,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_38_bold_normal_left:${encodeURIComponent(
+          `l_iecna_upload_india:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-22,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_0,y_350/ntgqq5e6s37tamyux4io.jpg`;
+          )}/fl_layer_apply,x_0,y_310/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+            company
+          )}/fl_layer_apply,x_0,y_360/jvmzeukgdwi2qwvrlbbv.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       }
@@ -145,6 +158,7 @@ function ImageDownloadPage({
   const handleImageLoad = () => {
     // Call your function here after the image has loaded
     console.log("Transformed image loaded!");
+    setDisplayed(false);
     if (transformedImageUrl !== null) {
       const trfRef = firestore.collection("transformed-images");
       trfRef
@@ -181,9 +195,24 @@ function ImageDownloadPage({
         <img
           src={transformedImageUrl}
           alt={title}
+          style={displayed ? { display: "none" } : { display: "block" }} // Hide the image
           className={`object-contain w-[100%] max-h-[25vh] h-[60vh] sm:max-h-[60vh]`}
           onLoad={handleImageLoad} // Call handleImageLoad function when the image is loaded
         />
+      )}
+      {transformedImageUrl && (
+        <button
+          style={displayed ? { display: "none" } : { display: "block" }} // Hide the button
+          onClick={handleDownloadTransformed}
+          className="newsletterbtn w-full absolute -bottom-2 left-1/2 -translate-x-1/2 bg-black/30 text-white p-2 rounded-md"
+        >
+          Download Poster
+        </button>
+      )}
+      {displayed && (
+        <div className="w-full h-full flex justify-center items-center">
+          <p className="text-2xl">Generating Banner...</p>
+        </div>
       )}
 
       <button
