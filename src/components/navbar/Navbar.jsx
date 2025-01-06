@@ -177,7 +177,7 @@ function Navbar() {
                 href="https://india2024.theiena.com/"
                 target="_blank"
                 className="transition-all duration-300 hover:text-[#ccff00]"
-
+                //
                 // [text-shadow:_0_0_25px_#ccff00,_0_0_35px_#ccff00]
               >
                 INDIA2024
