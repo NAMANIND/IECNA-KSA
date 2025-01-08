@@ -38,7 +38,7 @@ function EventDetails() {
           <span className="text-white"> APRIL 2025</span>
         </time>
         <div className="self-end sm:mt-12 my-5 text-5xl uppercase  font-medium  text-[#ccff00] tracking-[4px]	 leading-[56px]  max-md:text-4xl max-md:leading-[52px]">
-          <a href="https://maps.app.goo.gl/fgS3tdowgfkmGcij9" target="_blank">
+          {/* <a href="https://maps.app.goo.gl/fgS3tdowgfkmGcij9" target="_blank">
             Taj Lands End
             <br />
             <span className="flex flex-row  justify-end gap-2">
@@ -46,7 +46,7 @@ function EventDetails() {
               MUMBAI {"    "}
               <FaLocationDot />
             </span>
-          </a>
+          </a> */}
         </div>
       </div>
     </>
