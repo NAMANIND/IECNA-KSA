@@ -20,7 +20,7 @@ const VoteViews = () => {
     const fetchTransformedImages = async () => {
       try {
         const imagesSnapshot = await firestore
-          .collection("transformed-images")
+          .collection("india-2025-transformed-images")
           .get();
         const imagesData = imagesSnapshot.docs.map((doc) => ({
           id: doc.id,

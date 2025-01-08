@@ -86,7 +86,7 @@ function ImageDownloadPage({
             company
           )}/fl_layer_apply,x_0,y_320/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_0,y_360/ckopw19sk9zifzueh18k.jpg`;
+          )}/fl_layer_apply,x_0,y_360/ayyqjsejrucyoiisutyz.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       } else {
@@ -96,7 +96,7 @@ function ImageDownloadPage({
             title
           )}/fl_layer_apply,x_0,y_270/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_0,y_320/ckopw19sk9zifzueh18k.jpg`;
+          )}/fl_layer_apply,x_0,y_320/ayyqjsejrucyoiisutyz.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       }
@@ -112,7 +112,7 @@ function ImageDownloadPage({
             company
           )}/fl_layer_apply,x_0,y_320/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_0,y_360/iirsamzzw1qfrag8dhjf.jpg`;
+          )}/fl_layer_apply,x_0,y_360/jg9izofdle1zv3uj5mzh.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       } else {
@@ -122,7 +122,7 @@ function ImageDownloadPage({
             title
           )}/fl_layer_apply,x_0,y_270/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_0,y_320/iirsamzzw1qfrag8dhjf.jpg`;
+          )}/fl_layer_apply,x_0,y_320/jg9izofdle1zv3uj5mzh.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       }
@@ -138,7 +138,7 @@ function ImageDownloadPage({
             company
           )}/fl_layer_apply,x_0,y_360/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_0,y_400/jvmzeukgdwi2qwvrlbbv.jpg`;
+          )}/fl_layer_apply,x_0,y_400/ojlopewl8pnkdcsracjf.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       } else {
@@ -148,7 +148,7 @@ function ImageDownloadPage({
             title
           )}/fl_layer_apply,x_0,y_310/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_0,y_360/jvmzeukgdwi2qwvrlbbv.jpg`;
+          )}/fl_layer_apply,x_0,y_360/ojlopewl8pnkdcsracjf.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       }
@@ -160,7 +160,7 @@ function ImageDownloadPage({
     console.log("Transformed image loaded!");
     setDisplayed(false);
     if (transformedImageUrl !== null) {
-      const trfRef = firestore.collection("transformed-images");
+      const trfRef = firestore.collection("india-2025-transformed-images");
       trfRef
         .where("trf", "==", rem)
         .get()

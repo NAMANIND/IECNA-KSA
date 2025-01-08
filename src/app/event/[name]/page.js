@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
 
   if (nameArr.length > 1) {
     const nomineeSnapshot = await firestore
-      .collection("transformed-images")
+      .collection("india-2025-transformed-images")
       .where("trf", "==", nameArr[1])
       .get();
 
@@ -66,7 +66,16 @@ function page({ params }) {
 
   const nameArr = name.split("_");
 
-  const data = ["megha", "navya", "sonu", "anushri", "sonuchauhan"];
+  const data = [
+    "megha",
+    "navya",
+    "sonu",
+    "sonuchauhan",
+    "veera",
+    "fthima",
+    "mk",
+    "priyanshi",
+  ];
 
   const formData = {
     megha: {
@@ -90,16 +99,26 @@ function page({ params }) {
       FormType: "general",
       emails: [
         "20bei033@ietdavv.edu.in",
+        "megha.salian@influenceexchangegroup.com",
         "mohamed.suhel@influenceexchangegroup.com",
         "veera.crasta@influenceexchangegroup.com",
       ],
     },
-    anushri: {
+    fathima: {
       FormType: "general",
       emails: [
         "20bei033@ietdavv.edu.in",
-        "anushri.c@influenceexchangegroup.com",
+        "megha.salian@influenceexchangegroup.com",
         "mohamed.suhel@influenceexchangegroup.com",
+        "fathima.shaikh@influenceexchangegroup.com",
+      ],
+    },
+    mk: {
+      FormType: "general",
+      emails: [
+        "20bei033@ietdavv.edu.in",
+        "mohamed.suhel@influenceexchangegroup.com",
+        "megha.kottary@influenceexchangegroup.com",
         "megha.salian@influenceexchangegroup.com",
       ],
     },
@@ -109,14 +128,6 @@ function page({ params }) {
         "20bei033@ietdavv.edu.in",
         "mohamed.suhel@influenceexchangegroup.com",
         "priyanshi.pandey@influenceexchangegroup.com",
-      ],
-    },
-    meghak: {
-      FormType: "speaker",
-      emails: [
-        "20bei033@ietdavv.edu.in",
-        "mohamed.suhel@influenceexchangegroup.com",
-        "megha.kottary@influenceexchangegroup.com",
       ],
     },
   };
