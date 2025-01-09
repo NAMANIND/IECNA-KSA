@@ -25,7 +25,7 @@ const Voting = () => {
     "Food/Culinary Influencer of the Year",
     "Educational Content Creator of the Year",
     "Best Art & Photography Influencer",
-    "A plus size influencer of the Year",
+    "Plus size influencer of the Year",
     "Best Tech Influencer of the Year",
     "Most Promising Influencer of the Year",
   ];

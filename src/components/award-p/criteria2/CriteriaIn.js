@@ -232,9 +232,9 @@ function CriteriaIn() {
     },
 
     {
-      "A plus size influencer of the Year": {
+      "Plus size influencer of the Year": {
         description:
-          "A plus size influencer uses their platform to inspire and empower individuals, promoting self-love and challenging societal beauty norms. Through fashion-forward styling, candid storytelling, and a focus on inclusivity, they create relatable, impactful content. They play a pivotal role in shifting perceptions, advocating for size diversity in industries like fashion, wellness, and media while fostering a supportive community for their audience.",
+          "Plus size influencer uses their platform to inspire and empower individuals, promoting self-love and challenging societal beauty norms. Through fashion-forward styling, candid storytelling, and a focus on inclusivity, they create relatable, impactful content. They play a pivotal role in shifting perceptions, advocating for size diversity in industries like fashion, wellness, and media while fostering a supportive community for their audience.",
         criteria: [
           "Fashion and Lifestyle Inspiration: Showcases style tips, trends, and product reviews for diverse body types.",
           "Engaging Content: Creates relatable and authentic content that connects with their audience.",
