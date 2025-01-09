@@ -231,6 +231,40 @@ function CriteriaIn() {
       },
     },
 
+    {
+      "A plus size influencer of the Year": {
+        description:
+          "A plus size influencer uses their platform to inspire and empower individuals, promoting self-love and challenging societal beauty norms. Through fashion-forward styling, candid storytelling, and a focus on inclusivity, they create relatable, impactful content. They play a pivotal role in shifting perceptions, advocating for size diversity in industries like fashion, wellness, and media while fostering a supportive community for their audience.",
+        criteria: [
+          "Fashion and Lifestyle Inspiration: Showcases style tips, trends, and product reviews for diverse body types.",
+          "Engaging Content: Creates relatable and authentic content that connects with their audience.",
+          "Audience Impact: Encourages acceptance and diversity through social media presence.",
+        ],
+      },
+    },
+    {
+      "Best Tech Influencer of the Year": {
+        description:
+          "Honouring the influencer who educates and entertains audiences with insights into the latest technology trends, gadgets, and innovations.",
+        criteria: [
+          "Expertise in technology-related topics.",
+          "Insights and analysis of technology trends.",
+          "Engagement and interaction with tech enthusiasts.",
+        ],
+      },
+    },
+    {
+      "Most Promising Influencer of the Year": {
+        description:
+          "This award recognizes the most promising influencer who shows great potential and promise in their field. They may be relatively new to the influencer scene but have already made a significant impact and garnered attention for their content and engagement with their audience.",
+        criteria: [
+          "Content Quality and Consistency: Demonstrates a high level of quality and consistency in their content creation efforts.",
+          "Audience Engagement: Engages effectively with their audience, fostering a strong sense of community and interaction.",
+          "Innovation and Creativity: Shows innovation and creativity in their approach to content creation, setting themselves apart from others in their niche.",
+        ],
+      },
+    },
+
     // {
     //   "Most Promising Influencer of the Year": {
     //     description:
