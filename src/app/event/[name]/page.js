@@ -51,7 +51,7 @@ export async function generateMetadata({ params }) {
 
       images: [
         {
-          url: "https://india.theiena.com/lop.jpg",
+          url: "https://india.theiena.com/openg.jpg",
           alt: "Register for the event",
         },
       ],
