@@ -87,7 +87,7 @@ function Whattoexpect() {
         viewport={{ once: true, amount: 0.3 }}
         className={`mt-10 text-2xl  sm:px-20 px-5 font-medium tracking-tighter leading-8 text-center text-black max-md:mt-10 max-md:max-w-full ${work_sans.className} `}
       >
-        The Influence Exchange Confex & Awards 2.0 in India is set to be an
+        The Influence Exchange Confex & Awards in India is set to be an
         extraordinary experience, blending inspiration, learning, and
         celebration in the dynamic realm of influencer marketing. This event
         promises to deliver invaluable perspectives, actionable insights, and

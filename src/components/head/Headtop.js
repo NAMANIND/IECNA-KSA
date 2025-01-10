@@ -11,6 +11,7 @@ import register2 from "../../../public/images/head/register.png";
 import votee from "../../../public/images/head/votingend.jpg";
 import voteb from "../../../public/images/head/voteb.png";
 import votemob from "../../../public/images/head/votemob.jpg";
+import vote2 from "../../../public/images/head/vote2.png";
 import Image from "next/image";
 
 function Headtop({ head, opacity }) {
@@ -52,7 +53,8 @@ function Headtop({ head, opacity }) {
     url = register;
   }
   if (lower === "voting") {
-    url = ismobileView ? votemob : votee;
+    // url = ismobileView ? votemob : votee;
+    url = vote2;
   }
   if (lower === "event registration") {
     url = register2;

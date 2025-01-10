@@ -36,7 +36,7 @@ function Ourmisson() {
         viewport={{ once: true, amount: 0.3 }}
         className={`mt-20 sm:px-60 px-5 text-2xl font-medium tracking-tighter leading-8 max-md:mt-10 max-md:max-w-full ${work_sans.className} `}
       >
-        At The Influence Exchange Confex & Awards 2.0, our mission is to build a
+        At The Influence Exchange Confex & Awards, our mission is to build a
         transformative platform that fosters meaningful connections, inspires
         creativity, and celebrates excellence. We aim to bring together
         marketers, influencers, and tech leaders who are shaping the future of
