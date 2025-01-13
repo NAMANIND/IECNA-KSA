@@ -12,6 +12,7 @@ import votee from "../../../public/images/head/votingend.jpg";
 import voteb from "../../../public/images/head/voteb.png";
 import votemob from "../../../public/images/head/votemob.jpg";
 import vote2 from "../../../public/images/head/vote2.png";
+import votingbanner from "../../../public/images/head/voteingbanner.jpg";
 import Image from "next/image";
 
 function Headtop({ head, opacity }) {
@@ -54,7 +55,8 @@ function Headtop({ head, opacity }) {
   }
   if (lower === "voting") {
     // url = ismobileView ? votemob : votee;
-    url = vote2;
+    // url = vote2;
+    url = votingbanner;
   }
   if (lower === "event registration") {
     url = register2;
