@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { work_sans } from "@/styles/fonts";
 import Image from "next/image";
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
