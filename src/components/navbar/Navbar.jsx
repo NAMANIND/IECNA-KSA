@@ -25,6 +25,12 @@ function Navbar() {
 
   const [hidden, setHidden] = useState(false);
 
+  const [navigation, setNavigation] = useState(false);
+
+  useEffect(() => {
+    if (window.location.href.includes("/event")) setNavigation(true);
+  }, []);
+
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = scrollY.getPrevious();
     if (latest > previous && latest > 100) {
@@ -91,7 +97,7 @@ function Navbar() {
                     SPONSORS
                   </a>
                 </li>
-                <li>
+                <li style={{ display: navigation ? "none" : "flex" }}>
                   <a href="/register" className=" hover:text-[#ccff00]">
                     REGISTER
                   </a>
@@ -167,7 +173,7 @@ function Navbar() {
                 SPONSORS
               </a>
             </li>
-            <li>
+            <li style={{ display: navigation ? "none" : "flex" }}>
               <a href="/register" className=" hover:text-[#ccff00]">
                 REGISTER
               </a>
