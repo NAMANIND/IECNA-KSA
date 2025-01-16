@@ -76,6 +76,7 @@ const Voting = () => {
                 category: category.og,
                 vote: category.vote,
                 firstName: nominee.firstName,
+                middleName: nominee?.middleName,
                 lastName: nominee.lastName,
               });
             }
