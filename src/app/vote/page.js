@@ -362,7 +362,7 @@ const CategoryNominees = ({
               </div>
               <div className="p-4">
                 <p className="text-xl font-semibold uppercase mb-2 text-center">
-                  {nominee.firstName} {nominee.lastName}
+                  {nominee.firstName} {nominee?.middleName} {nominee.lastName}
                 </p>
               </div>
             </div>

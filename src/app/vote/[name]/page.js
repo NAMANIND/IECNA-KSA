@@ -179,7 +179,7 @@ const PersonalVote = ({ params }) => {
       {nomineeData && (
         <div className=" mx-auto p-8 bg-white rounded-lg shadow-lg">
           <h1 className="text-3xl font-semibold uppercase mb-8 text-center ">
-            {firstName} {lastName}
+            {firstName} {nomineeData?.middleName} {lastName}
           </h1>
           <div className="relative w-full flex justify-center h-[400px] mb-4 overflow-hidden rounded-lg">
             <img
