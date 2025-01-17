@@ -1,16 +1,17 @@
 export async function generateMetadata({ params }) {
   const { name } = params;
-  const [firstName, lastName] = name.toLowerCase().split("_");
+  const [fn, lastName] = name.toLowerCase().split("_");
+  const firstName = fn.charAt(0).toUpperCase() + fn.slice(1);
   return {
-    title: `Vote for ${firstName} - IEC&A Nominees`,
-    description: `Cast your vote for ${firstName} at Influence Exchange Confex and Awards`,
+    title: `Vote For ${firstName} - IEC&A Nominees`,
+    description: `Cast your vote for ${fn} at Influence Exchange Confex and Awards`,
     openGraph: {
-      title: `Vote for ${firstName}`,
-      description: `Support ${firstName} at Influence Exchange Confex and Awards`,
+      title: `Vote For ${firstName}`,
+      description: `Support ${fn} at Influence Exchange Confex and Awards`,
       images: [
         {
           url: "https://india.theiena.com/head/voteingbanner.jpg",
-          alt: `Vote for ${firstName}`,
+          alt: `Vote For ${firstName}`,
         },
       ],
     },
