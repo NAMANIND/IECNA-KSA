@@ -10,7 +10,7 @@ export async function generateMetadata({ params }) {
       description: `Support ${fn} at Influence Exchange Confex and Awards`,
       images: [
         {
-          url: "https://india.theiena.com/head/voteingbanner.jpg",
+          url: "https://india.theiena.com/images/head/voteingbanner.jpg",
           alt: `Vote For ${firstName}`,
         },
       ],
