@@ -129,7 +129,7 @@ function Whyattend() {
         viewport={{ once: true, amount: 0.3 }}
         className="mt-11 text-2xl sm:px-10 px-0 mb-28 font-medium tracking-tighter leading-8 text-center text-black max-md:mt-10 max-md:max-w-full"
       >
-        The 5th Edition of The Influence Exchange Confex & Awards 2025 is more
+        The 7th Edition of The Influence Exchange Confex & Awards 2025 is more
         than an event—it’s a platform for unlocking opportunities, accelerating
         growth, and staying ahead in the fast-paced world of Influencer
         Marketing, MarTech, and AdTech. Whether you're a brand marketer, content

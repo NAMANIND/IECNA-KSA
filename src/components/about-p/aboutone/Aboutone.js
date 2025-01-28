@@ -172,7 +172,7 @@ function Aboutone() {
           viewport={{ once: true, amount: 0.3 }}
           className="sm:text-md text-xl  sm:px-20 px-0 font-medium text-justify tracking-tighter leading-6 text-white max-md:max-w-full slidein"
         >
-          Welcome to the 5th Edition of{" "}
+          Welcome to the 7th Edition of{" "}
           <strong>The Influence Exchange Confex & Awards 2025</strong>—the
           ultimate platform for marketers, influencers, and tech innovators to
           shape the future of Influencer Marketing, MarTech, and AdTech. This

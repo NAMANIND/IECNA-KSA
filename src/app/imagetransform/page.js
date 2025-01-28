@@ -25,7 +25,7 @@ function ImageDownloadPage({
   useEffect(() => {
     const uploadImage = async () => {
       const formData = new FormData();
-      formData.append("upload_preset", "iecna_upload_india");
+      formData.append("upload_preset", "iecna_upload_ksa");
       formData.append("file", imageData);
 
       try {
@@ -80,23 +80,23 @@ function ImageDownloadPage({
       if (field === "marketer") {
         const transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `l_iecna_upload_india:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-2,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `l_iecna_upload_ksa:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-2,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_0,y_270/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-5,y_260/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_0,y_320/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-5,y_310/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_0,y_360/ayyqjsejrucyoiisutyz.jpg`;
+          )}/fl_layer_apply,x_-5,y_350/pnmyzihihhmkmuklxwvt.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       } else {
         const transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `l_iecna_upload_india:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-2,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `l_iecna_upload_ksa:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-2,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_0,y_270/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-5,y_260/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_0,y_320/ayyqjsejrucyoiisutyz.jpg`;
+          )}/fl_layer_apply,x_-5,y_310/pnmyzihihhmkmuklxwvt.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       }
@@ -106,23 +106,23 @@ function ImageDownloadPage({
       if (field === "marketer") {
         const transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `l_iecna_upload_india:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-2,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `l_iecna_upload_ksa:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-2,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_0,y_270/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-5,y_260/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_0,y_320/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-5,y_310/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_0,y_360/jg9izofdle1zv3uj5mzh.jpg`;
+          )}/fl_layer_apply,x_-5,y_350/rzufuztouiqikkge4hjj.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       } else {
         const transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `l_iecna_upload_india:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-2,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `l_iecna_upload_ksa:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-2,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_0,y_270/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-5,y_260/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_0,y_320/jg9izofdle1zv3uj5mzh.jpg`;
+          )}/fl_layer_apply,x_-5,y_310/rzufuztouiqikkge4hjj.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       }
@@ -132,23 +132,23 @@ function ImageDownloadPage({
       if (field === "marketer") {
         const transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `l_iecna_upload_india:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-22,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `l_iecna_upload_ksa:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_-5,y_-22,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_0,y_310/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_0,y_330/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_0,y_360/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_0,y_380/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_0,y_400/ojlopewl8pnkdcsracjf.jpg`;
+          )}/fl_layer_apply,x_0,y_420/m3fbgemf4ho33ihsnd7l.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       } else {
         const transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `l_iecna_upload_india:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-22,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `l_iecna_upload_ksa:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_-5,y_-22,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_0,y_310/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_0,y_330/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_0,y_360/ojlopewl8pnkdcsracjf.jpg`;
+          )}/fl_layer_apply,x_0,y_380/m3fbgemf4ho33ihsnd7l.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       }
@@ -160,7 +160,7 @@ function ImageDownloadPage({
     console.log("Transformed image loaded!");
     setDisplayed(false);
     if (transformedImageUrl !== null) {
-      const trfRef = firestore.collection("india-2025-transformed-images");
+      const trfRef = firestore.collection("ksa-2025-transformed-images");
       trfRef
         .where("trf", "==", rem)
         .get()

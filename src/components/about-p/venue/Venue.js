@@ -31,11 +31,11 @@ function EventDetails() {
         className={`flex flex-col pl-14 mt-14 max-md:pl-5 max-md:mt-10 max-md:max-w-full ${anton.className}  `}
       >
         <time className=" text-7xl text-white max-md:text-4xl">
-          <span className="text-white">30</span>
+          <span className="text-white">9</span>
           <sup>
             <span className="text-white">th</span>
           </sup>
-          <span className="text-white"> APRIL 2025</span>
+          <span className="text-white"> JULY 2025</span>
         </time>
         <div className="self-end sm:mt-12 my-5 text-5xl uppercase  font-medium  text-[#ccff00] tracking-[4px]	 leading-[56px]  max-md:text-4xl max-md:leading-[52px]">
           {/* <a href="https://maps.app.goo.gl/fgS3tdowgfkmGcij9" target="_blank">

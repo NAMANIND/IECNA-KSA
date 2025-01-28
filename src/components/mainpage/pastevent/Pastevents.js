@@ -101,7 +101,7 @@ function Pastevents() {
               <h2
                 className={`mt-5 text-2xl tracking-tighter  ${work_sans.className} `}
               >
-                30<sup>th</sup> APRIL 2025{" "}
+                9<sup>th</sup> JULY 2025{" "}
               </h2>
             </div>
           </div>

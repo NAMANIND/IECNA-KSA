@@ -66,7 +66,7 @@ function Reasons() {
       >
         <span className="font-bold  italic">
           What Awaits You at the{" "}
-          <span className="font-bold italic text-[#51B6FF]">5th Edition?</span>
+          <span className="font-bold italic text-[#51B6FF]">7th Edition?</span>
         </span>
       </motion.div>
 
