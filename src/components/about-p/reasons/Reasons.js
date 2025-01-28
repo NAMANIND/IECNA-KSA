@@ -1,45 +1,58 @@
 "use client";
 
 import { work_sans, anton } from "@/styles/fonts";
-
-import { FaChalkboardTeacher } from "react-icons/fa";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { GiTrophyCup } from "react-icons/gi";
-import { HiOutlineUsers } from "react-icons/hi";
-import { MdWorkOutline } from "react-icons/md";
-import { MdDinnerDining } from "react-icons/md";
+import { FaLightbulb, FaHandshake, FaRocket } from "react-icons/fa";
+import { GiTrophyCup, GiGrowth, GiMagnifyingGlass } from "react-icons/gi";
+import { BiBrain } from "react-icons/bi";
+import { HiSparkles } from "react-icons/hi";
+import { IoIosFlash } from "react-icons/io";
 import { motion } from "framer-motion";
 
 const content = [
   {
-    icon: FaChalkboardTeacher,
-    title: "Dynamic Panel Discussions",
-    text: "Join industry thought leaders as they navigate the challenges and unveil opportunities in influencer marketing. These discussions promise to deliver fresh perspectives and actionable strategies to thrive in a competitive marketplace.",
+    icon: BiBrain, // Strategic thinking
+    title: "Unlock Strategic Excellence",
+    text: "Discover pioneering tools and techniques to craft campaigns that drive results and resonate with audiences.",
   },
   {
-    icon: AiOutlineFundProjectionScreen,
-    title: "Exclusive Insights & Presentations",
-    text: "Witness trailblazing campaigns and innovative solutions through focused presentations. Learn how to leverage the latest advancements in MarTech and AdTech to maximize ROI and drive meaningful engagement.",
+    icon: IoIosFlash, // Innovation/speed
+    title: "Stay on the Cutting Edge",
+    text: "Learn from global and regional leaders about emerging trends, ensuring your strategies remain future-ready.",
   },
   {
-    icon: GiTrophyCup,
-    title: "Prestigious Awards Ceremony",
-    text: "Celebrate excellence in influencer marketing as the event honors trailblazers and outstanding contributors who are shaping the industry.",
+    icon: GiTrophyCup, // Achievement
+    title: "Achieve Impactful Results",
+    text: "Dive into real-world success stories showcasing influencer collaborations that deliver measurable ROI.",
   },
   {
-    icon: HiOutlineUsers,
-    title: "Immersive Networking Opportunities",
-    text: "From informal dialogues to strategic business discussions, connect with decision-makers, creators, and industry pioneers in a vibrant gala atmosphere designed to foster partnerships and collaboration.",
+    icon: FaHandshake, // Partnership
+    title: "Collaborate with Icons",
+    text: "Forge partnerships with leading brands and agencies seeking authentic voices to tell their stories.",
   },
   {
-    icon: MdWorkOutline,
-    title: "Collaborative Workshops",
-    text: "Dive into hands-on sessions led by experts to explore practical approaches for integrating technology and creativity to amplify your marketing impact.",
+    icon: GiGrowth, // Growth/Success
+    title: "Grow Your Brand",
+    text: "Master the art of audience engagement, refine your content strategy, and build a lasting personal brand.",
   },
   {
-    icon: MdDinnerDining,
-    title: "Gala Dinner & Business Dialogues",
-    text: "Strengthen relationships and forge meaningful alliances over an exquisite dinner, set in an ambiance of collaboration and inspiration.",
+    icon: FaRocket, // New opportunities/launch
+    title: "Access New Horizons",
+    text: "Explore exclusive opportunities for brand deals, mentorships, and innovative monetization strategies.",
+  },
+  {
+    icon: HiSparkles, // Innovation/disruption
+    title: "Showcase Disruptive Technologies",
+    text: "Present your cutting-edge MarTech and AdTech innovations to a room filled with decision-makers and trendsetters.",
+  },
+  {
+    icon: FaLightbulb, // Ideas/innovation
+    title: "Redefine Campaigns",
+    text: "Demonstrate how your solutions can revolutionize marketing strategies, enhance data insights, and drive exceptional outcomes.",
+  },
+  {
+    icon: GiMagnifyingGlass, // Discovery/expertise
+    title: "Collaborate with the Best",
+    text: "Engage with CMOs, marketing heads, and influencers eager to integrate transformative tech into their campaigns.",
   },
 ];
 function Reasons() {

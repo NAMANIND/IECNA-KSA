@@ -12,53 +12,25 @@ import exclusive from "../../../../public/images/aboutnew/exclusive.jpg";
 
 function Whyattend() {
   const cardData = [
-    // Add more card data objects here as needed
-
     {
-      title: "Discover Cutting-Edge Strategies",
+      title: "Redefine Influence",
       imageUrl: insights,
-      text: "Gain exclusive insights into the latest marketing tools, techniques, and technologies to craft impactful campaigns and maximize your ROI.",
+      text: "Stay at the forefront of global influencer marketing trends and strategies.",
     },
     {
-      title: "Stay Ahead of the Curve",
-      imageUrl: exclusive,
-      text: "Learn from industry leaders about emerging trends and groundbreaking approaches to elevate your marketing game.",
-    },
-    {
-      title: "Drive Measurable Success",
-      imageUrl: buiness,
-      text: "Explore proven case studies that demonstrate how brands are achieving exceptional results through influencer collaborations and advanced technologies.",
-    },
-
-    {
-      title: "Forge Meaningful Collaborations",
+      title: "Expand Your Network",
       imageUrl: networking,
-      text: "Connect with top brands and agencies seeking authentic storytellers who can drive engagement and inspire audiences.",
+      text: "Forge connections with top-tier brands, creators, and tech pioneers.",
     },
     {
-      title: "Expand Your Influence",
-      imageUrl: insights,
-      text: "Learn expert techniques to grow your audience, refine your content strategy, and strengthen your personal brand.",
-    },
-    {
-      title: "Unlock New Opportunities",
-      imageUrl: exclusive,
-      text: "Access exclusive brand partnerships, mentorships, and monetization strategies to elevate your career to new heights.",
-    },
-    {
-      title: "Showcase Your Breakthroughs",
+      title: "Unlock Opportunities",
       imageUrl: buiness,
-      text: "Present your MarTech and AdTech solutions to a room filled with decision-makers, brands, and agencies eager for innovation.",
+      text: "Be part of high-impact collaborations and explore transformative business avenues.",
     },
     {
-      title: "Shape the Future of Marketing",
-      imageUrl: insights,
-      text: "Demonstrate how your tools can transform campaigns, enhance analytics, and drive results in a rapidly evolving digital landscape.",
-    },
-    {
-      title: "Engage Industry Leaders",
-      imageUrl: networking,
-      text: "Build connections with CMOs, marketing heads, and influencers seeking transformative tech solutions.",
+      title: "Elevate Your Expertise",
+      imageUrl: exclusive,
+      text: "Learn from world-class leaders and gain exclusive insights tailored to drive success in MarTech and AdTech.",
     },
   ];
 
@@ -129,12 +101,10 @@ function Whyattend() {
         viewport={{ once: true, amount: 0.3 }}
         className="mt-11 text-2xl sm:px-10 px-0 mb-28 font-medium tracking-tighter leading-8 text-center text-black max-md:mt-10 max-md:max-w-full"
       >
-        The 5th Edition of The Influence Exchange Confex & Awards 2025 is more
-        than an event—it’s a platform for unlocking opportunities, accelerating
-        growth, and staying ahead in the fast-paced world of Influencer
-        Marketing, MarTech, and AdTech. Whether you're a brand marketer, content
-        creator, agency professional, or tech innovator, this is your chance to
-        connect, innovate, and thrive. Here’s why you simply can’t miss it:
+        This Edition of The Influence Exchange Confex & Awards 2025 isn’t just
+        an event; it’s your gateway to influence, innovation, and industry
+        leadership in one of the world’s most dynamic digital markets- Saudi
+        Arabia.
       </motion.div>
       {/* Render each card dynamically */}
       <div className="self-stretch mt-2 w-full max-md:max-w-full">

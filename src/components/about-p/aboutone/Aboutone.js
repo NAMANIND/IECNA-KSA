@@ -172,32 +172,32 @@ function Aboutone() {
           viewport={{ once: true, amount: 0.3 }}
           className="sm:text-md text-xl  sm:px-20 px-0 font-medium text-justify tracking-tighter leading-6 text-white max-md:max-w-full slidein"
         >
-          Welcome to the 5th Edition of{" "}
-          <strong>The Influence Exchange Confex & Awards 2025</strong>—the
-          ultimate platform for marketers, influencers, and tech innovators to
-          shape the future of Influencer Marketing, MarTech, and AdTech. This
-          milestone event will bring together over 200 thought leaders,
-          creators, and decision-makers in an engaging and elegant setting,
-          creating an unparalleled space for innovation, collaboration, and
-          celebration.
+          <strong>
+            Saudi Arabia: The Perfect Stage for the Next Evolution in Influencer
+            Marketing
+          </strong>
           <br />
           <br />
-          This year’s edition will feature dynamic panel discussions led by
-          industry pioneers, exclusive presentations showcasing cutting-edge
-          campaigns and tools, and a prestigious awards ceremony to honor
-          excellence in influencer marketing. Participants will gain actionable
-          insights, explore the latest trends, and uncover strategies to amplify
-          their marketing impact, making this event a catalyst for professional
-          growth and success.
+          With its dynamic digital growth and thriving influencer ecosystem,
+          Saudi Arabia stands as the ultimate destination for the 5th Edition of
+          The Influence Exchange Confex & Awards. The Kingdom's digital
+          advertising market is projected to reach $85.09 million in 2024, with
+          a robust CAGR of 10.34% through 2029, reflecting its emergence as a
+          key player in the global marketing landscape. The average ad spend per
+          internet user, at $3.33, underscores the growing focus on
+          influencer-driven campaigns that connect brands to audiences in
+          authentic and impactful ways.
           <br />
           <br />
-          With immersive networking opportunities in a gala setting, hands-on
-          collaborative workshops, and tailored business dialogues, the event
-          offers a 360-degree experience for all attendees. Whether you're a
-          marketer, creator, or tech innovator,{" "}
-          <strong>The Influence Exchange Confex & Awards 2025</strong> is your
-          gateway to forging meaningful partnerships, celebrating achievements,
-          and redefining the future of marketing.
+          Saudi Arabia's young, tech-savvy population, paired with its
+          world-leading video consumption rates, makes it a vibrant hub for
+          innovation in influencer marketing. The rise of micro-influencers with
+          their niche, loyal audiences is driving targeted, high-impact
+          campaigns, while the Kingdom's cultural emphasis on word-of-mouth
+          seamlessly aligns with modern influencer practices. This evolving
+          landscape positions Saudi Arabia as a fertile ground for exploring
+          MarTech, AdTech, and influencer strategies that redefine the future of
+          marketing.
           <br />
           <br />
           <span className="text-[#ccff00]">

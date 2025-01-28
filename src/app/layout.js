@@ -5,7 +5,7 @@ import { inter } from "@/styles/fonts";
 import logo from "../../public/logo.svg";
 
 export const metadata = {
-  title: "IE&A",
+  title: "IEC&A",
   description: "INFLUENCE EXCHANGE CONFEX AND AWARDS",
 };
 

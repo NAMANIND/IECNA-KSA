@@ -13,40 +13,58 @@ function Whattoexpect() {
   // Sample data for cards
   const cardData = [
     {
-      title: "Inspiring Interactions",
+      title: "Strategic Excellence",
       imgUrl: engaging,
       description:
-        "Dive into a dynamic environment where marketers and influencers come together to exchange ideas, spark collaborations, and explore business opportunities that extend far beyond the event.",
+        "Discover pioneering tools and techniques to craft campaigns that drive results and resonate with audiences.",
     },
     {
-      title: "Expert-Led Program",
+      title: "Cutting Edge Insights",
       imgUrl: curated,
       description:
-        "Engage with a meticulously curated agenda featuring keynote sessions, dynamic panel discussions, hands-on workshops, and immersive networking opportunities. Every moment is designed to deliver impactful content and foster meaningful connections.",
+        "Learn from global and regional leaders about emerging trends, ensuring your strategies remain future-ready.",
     },
     {
-      title: "Cutting-Edge Insights",
+      title: "Impactful Results",
       imgUrl: top,
       description:
-        "Gain exclusive knowledge from leading influencers, marketers, and innovators, offering fresh perspectives on navigating the rapidly evolving landscape of influencer marketing, MarTech, and AdTech.",
+        "Dive into real-world success stories showcasing influencer collaborations that deliver measurable ROI.",
     },
     {
-      title: "The Future of Marketing",
+      title: "Icon Collaborations",
       imgUrl: future,
       description:
-        "Stay ahead with insights into the latest trends, emerging technologies, and transformative strategies shaping the future of marketing and influencer collaboration.",
+        "Forge partnerships with leading brands and agencies seeking authentic voices to tell their stories.",
     },
     {
-      title: "Opportunities for All",
+      title: "Brand Growth",
       imgUrl: engaging,
       description:
-        "Whether you're a marketer exploring creative strategies or an influencer seeking authentic brand partnerships, this platform opens doors to new possibilities, helping you build relationships that drive success.",
+        "Master the art of audience engagement, refine your content strategy, and build a lasting personal brand.",
     },
     {
-      title: "Industry Expertise",
+      title: "New Horizons",
       imgUrl: top,
       description:
-        "Learn from the best in the business as experts share actionable strategies, practical knowledge, and real-world case studies to unlock the full potential of your influencer marketing campaigns.",
+        "Explore exclusive opportunities for brand deals, mentorships, and innovative monetization strategies.",
+    },
+    {
+      title: "Disruptive Tech",
+      imgUrl: curated,
+      description:
+        "Present your cutting-edge MarTech and AdTech innovations to a room filled with decision-makers and trendsetters.",
+    },
+    {
+      title: "Campaign Innovation",
+      imgUrl: future,
+      description:
+        "Demonstrate how your solutions can revolutionize marketing strategies, enhance data insights, and drive exceptional outcomes.",
+    },
+    {
+      title: "Elite Network",
+      imgUrl: engaging,
+      description:
+        "Engage with CMOs, marketing heads, and influencers eager to integrate transformative tech into their campaigns.",
     },
   ];
 
@@ -96,7 +114,7 @@ function Whattoexpect() {
       </motion.div>
 
       <div className="w-full max-md:mt-10 max-md:max-w-full sm:p-20 p-5">
-        <div className="grid grid-cols-2 gap-[4%] rounded-[36px] max-md:gap-0 max-md:grid-cols-1">
+        <div className="grid grid-cols-2 gap-x-[4%] gap-y-[1%] rounded-[36px] max-md:gap-0 max-md:grid-cols-1">
           {cardData.map((card, index) => (
             <motion.div
               initial={offscreen}
