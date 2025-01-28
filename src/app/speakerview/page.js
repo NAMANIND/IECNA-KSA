@@ -11,7 +11,7 @@ const SpeakerViews = () => {
     const fetchSpeakers = async () => {
       try {
         const speakersSnapshot = await firestore
-          .collection("india-speakers2025")
+          .collection("ksa-speakers2025")
           .get();
         const speakersData = speakersSnapshot.docs.map((doc) => ({
           id: doc.id,
@@ -38,10 +38,7 @@ const SpeakerViews = () => {
     );
     if (isConfirmed) {
       try {
-        await firestore
-          .collection("india-speakers2025")
-          .doc(speakerId)
-          .delete();
+        await firestore.collection("ksa-speakers2025").doc(speakerId).delete();
         // Refresh the speakers list after deletion
         const updatedSpeakers = speakers.filter(
           (speaker) => speaker.id !== speakerId
@@ -56,7 +53,7 @@ const SpeakerViews = () => {
 
   const toggleApproval = async (speakerId, currentApprovedStatus) => {
     try {
-      await firestore.collection("india-speakers2025").doc(speakerId).update({
+      await firestore.collection("ksa-speakers2025").doc(speakerId).update({
         approved: !currentApprovedStatus,
       });
       // Refresh the speakers list after updating approval status
@@ -74,7 +71,7 @@ const SpeakerViews = () => {
 
   const updatePriority = async (speakerId, newPriority) => {
     try {
-      await firestore.collection("india-speakers2025").doc(speakerId).update({
+      await firestore.collection("ksa-speakers2025").doc(speakerId).update({
         priority: newPriority,
       });
       // Refresh the speakers list after updating priority
@@ -92,7 +89,7 @@ const SpeakerViews = () => {
 
   const updateJobTitle = async (speakerId, newJobTitle) => {
     try {
-      await firestore.collection("india-speakers2025").doc(speakerId).update({
+      await firestore.collection("ksa-speakers2025").doc(speakerId).update({
         jobTitle: newJobTitle,
       });
       // Refresh the speakers list after updating job title
@@ -110,7 +107,7 @@ const SpeakerViews = () => {
 
   const updateCompany = async (speakerId, newCompany) => {
     try {
-      await firestore.collection("india-speakers2025").doc(speakerId).update({
+      await firestore.collection("ksa-speakers2025").doc(speakerId).update({
         company: newCompany,
       });
       // Refresh the speakers list after updating company

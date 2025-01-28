@@ -115,7 +115,7 @@ function Aboutone() {
       title: "Social Media Users",
       value: "$462 M",
       description:
-        "India was home to 462.0 million social media users in January 2024, equating to 32.2 percent of the total population.",
+        "KSA was home to 462.0 million social media users in January 2024, equating to 32.2 percent of the total population.",
     },
   ];
 
@@ -172,7 +172,7 @@ function Aboutone() {
           viewport={{ once: true, amount: 0.3 }}
           className="sm:text-md text-xl  sm:px-20 px-0 font-medium text-justify tracking-tighter leading-6 text-white max-md:max-w-full slidein"
         >
-          Welcome to the 7th Edition of{" "}
+          Welcome to the 5th Edition of{" "}
           <strong>The Influence Exchange Confex & Awards 2025</strong>—the
           ultimate platform for marketers, influencers, and tech innovators to
           shape the future of Influencer Marketing, MarTech, and AdTech. This
@@ -203,8 +203,8 @@ function Aboutone() {
           <span className="text-[#ccff00]">
             Don't miss out on this remarkable gathering of like-minded
             professionals. Join us at the Influence Exchange Confex and Awards
-            Series India 2025 to unlock the full potential of ad tech, mar tech
-            & influencer marketing in today's digital landscape.
+            Series KSA 2025 to unlock the full potential of ad tech, mar tech &
+            influencer marketing in today's digital landscape.
           </span>
         </motion.p>
         <motion.div
@@ -287,13 +287,13 @@ function Aboutone() {
                 <span className="text-xl font-bold text-[#ccff00]">
                   Instagram Growth:{" "}
                 </span>{" "}
-                Instagram Influencer marketing in India has witnessed
-                significant growth and evolution in recent years, becoming a
-                prominent strategy for brands to reach and engage with their
-                target audiences. In India, influencers have become a vital
-                channel for businesses, forging authentic connections with
-                audiences through relatable content. The influencer marketing
-                industry has witnessed widespread adoption across sectors.
+                Instagram Influencer marketing in KSA has witnessed significant
+                growth and evolution in recent years, becoming a prominent
+                strategy for brands to reach and engage with their target
+                audiences. In KSA, influencers have become a vital channel for
+                businesses, forging authentic connections with audiences through
+                relatable content. The influencer marketing industry has
+                witnessed widespread adoption across sectors.
               </p>
             </div>
           </motion.div>

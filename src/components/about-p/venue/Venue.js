@@ -22,10 +22,10 @@ function EventDetails() {
     <>
       <p className={`text-md   text-white font-light   ${work_sans.className}`}>
         Influence Exchange Confex & Awards Series 2025 will take place at a
-        prestigious venue in India, providing a luxurious and conducive
+        prestigious venue in KSA, providing a luxurious and conducive
         environment for networking, learning, and collaboration. Stay tuned for
         more details on the venue, and get ready to experience an event like no
-        other in the heart of India's vibrant landscape.
+        other in the heart of KSA's vibrant landscape.
       </p>
       <div
         className={`flex flex-col pl-14 mt-14 max-md:pl-5 max-md:mt-10 max-md:max-w-full ${anton.className}  `}

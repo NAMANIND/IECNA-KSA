@@ -20,7 +20,7 @@ const VoteViews = () => {
     const fetchTransformedImages = async () => {
       try {
         const imagesSnapshot = await firestore
-          .collection("india-2025-transformed-images")
+          .collection("ksa-2025-transformed-images")
           .get();
         const imagesData = imagesSnapshot.docs.map((doc) => ({
           id: doc.id,
@@ -58,7 +58,7 @@ const VoteViews = () => {
     const fetchNominees = async () => {
       try {
         const nomineesSnapshot = await firestore
-          .collection("india-nominees2025")
+          .collection("ksa-nominees2025")
           .get();
         const nomineesData = nomineesSnapshot.docs.map((doc) => ({
           id: doc.id,
@@ -113,7 +113,7 @@ const VoteViews = () => {
     if (isConfirmed) {
       try {
         const nomineeRef = firestore
-          .collection("india-nominees2025")
+          .collection("ksa-nominees2025")
           .doc(nomineeId);
         const nomineeDoc = await nomineeRef.get();
         const nomineeData = nomineeDoc.data();
@@ -276,12 +276,12 @@ const VoteViews = () => {
                               Votes: {nominee.vote}
                             </p>
                             <Snippet
-                              codeString={`https://india.theiena.com/vote/${nominee.firstName
+                              codeString={`https://ksa.theiena.com/vote/${nominee.firstName
                                 .toLowerCase()
                                 .replace(/\s/g, "")}_${nominee.lastName
                                 .toLowerCase()
                                 .replace(/\s/g, "")}`}
-                              symbol={`https://india.theiena.com/vote/${nominee.firstName
+                              symbol={`https://ksa.theiena.com/vote/${nominee.firstName
                                 .toLowerCase()
                                 .replace(/\s/g, "")}_${nominee.lastName
                                 .toLowerCase()

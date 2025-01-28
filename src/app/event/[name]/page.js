@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
 
   if (nameArr.length > 1) {
     const nomineeSnapshot = await firestore
-      .collection("india-2025-transformed-images")
+      .collection("ksa-2025-transformed-images")
       .where("trf", "==", nameArr[1])
       .get();
 
@@ -51,7 +51,7 @@ export async function generateMetadata({ params }) {
 
       images: [
         {
-          url: "https://india.theiena.com/openg.jpg",
+          url: "https://ksa.theiena.com/openg.jpg",
           alt: "Register for the event",
         },
       ],

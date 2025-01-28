@@ -102,7 +102,7 @@ function Navbar() {
                     REGISTER
                   </a>
                 </li>
-                <li className="relative group">
+                {/* <li className="relative group">
                   <a
                     href="https://india2024.theiena.com/"
                     target="_blank"
@@ -112,7 +112,7 @@ function Navbar() {
                   >
                     INDIA2024
                   </a>
-                </li>
+                </li> */}
 
                 <li>
                   <a href="/vote" className=" hover:text-[#ccff00]">
@@ -178,7 +178,7 @@ function Navbar() {
                 REGISTER
               </a>
             </li>
-            <li className="relative group">
+            {/* <li className="relative group">
               <a
                 href="https://india2024.theiena.com/"
                 target="_blank"
@@ -188,7 +188,7 @@ function Navbar() {
               >
                 INDIA2024
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="/vote" className=" hover:text-[#ccff00]">
                 VOTE

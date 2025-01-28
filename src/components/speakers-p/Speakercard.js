@@ -427,7 +427,7 @@ function SpeakerCard() {
     const fetchSpeakers = async () => {
       try {
         const speakersCollection = await firestore
-          .collection("india-speakers2025")
+          .collection("ksa-speakers2025")
           .where("approved", "==", true) // Filter speakers where approved is true
           .get();
         const speakersData = speakersCollection.docs.map((doc) => doc.data());
@@ -448,7 +448,7 @@ function SpeakerCard() {
     const fetchPastIndiaspeakers = async () => {
       try {
         const pastIndiaspeakersCollection = await firestore
-          .collection("india-speakers")
+          .collection("ksa-speakers")
           .where("approved", "==", true) // Filter speakers where approved is true
           .get();
         const pastIndiaspeakersData = pastIndiaspeakersCollection.docs.map(

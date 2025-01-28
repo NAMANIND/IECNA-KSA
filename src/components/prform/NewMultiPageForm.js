@@ -260,7 +260,7 @@ const NewMultiPageForm = ({ to, name }) => {
       setrtype("nomination");
       const imageRef = storage
         .ref()
-        .child(`india-nomination-image2025/${formData.image.name}`);
+        .child(`ksa-nomination-image2025/${formData.image.name}`);
       await imageRef.put(formData.image);
       const imageUrl = await imageRef.getDownloadURL();
       setimgu(imageUrl);
@@ -279,7 +279,7 @@ const NewMultiPageForm = ({ to, name }) => {
         <p>Country: ${formData.country}</p>
         <p>Industry: ${formData.industry}</p>
         <p>Vote Link: ${`
-      https://india.theiena.com/vote/${formData.firstName
+      https://ksa.theiena.com/vote/${formData.firstName
         .toLowerCase()
         .replace(/\s/g, "")}_${formData.lastName
           .toLowerCase()
@@ -305,7 +305,7 @@ const NewMultiPageForm = ({ to, name }) => {
         " " +
         formData.lastName;
       const html = htmlcontent;
-      const vlink = `https://india.theiena.com/vote/${formData.firstName
+      const vlink = `https://ksa.theiena.com/vote/${formData.firstName
         .toLowerCase()
         .replace(/\s/g, "")}_${formData.lastName
         .toLowerCase()
@@ -314,10 +314,10 @@ const NewMultiPageForm = ({ to, name }) => {
 
       await Sendemail(to, subject, html);
 
-      const nomineeRef = firestore.collection("india-nominees2025").doc();
+      const nomineeRef = firestore.collection("ksa-nominees2025").doc();
       const nomineeId = nomineeRef.id;
       const nomineeQuery = firestore
-        .collection("india-nominees2025")
+        .collection("ksa-nominees2025")
         .where(
           "firstName",
           "==",
@@ -356,7 +356,7 @@ const NewMultiPageForm = ({ to, name }) => {
           });
 
           await firestore
-            .collection("india-nominees2025")
+            .collection("ksa-nominees2025")
             .doc(nomineeId2)
             .update({
               categories: { ...updatedCategories },
@@ -426,7 +426,7 @@ const NewMultiPageForm = ({ to, name }) => {
     } else {
       const imageRef = storage
         .ref()
-        .child(`india-delegate-image2025/${formData.image.name}`);
+        .child(`ksa-delegate-image2025/${formData.image.name}`);
       await imageRef.put(formData.image);
       const imageUrl2 = await imageRef.getDownloadURL();
       setimgu(imageUrl2);
@@ -469,7 +469,7 @@ const NewMultiPageForm = ({ to, name }) => {
 
       await Sendemail(to, subject, html);
 
-      const nomineeRef = firestore.collection("india-delegates2025").doc();
+      const nomineeRef = firestore.collection("ksa-delegates2025").doc();
       const nomineeId = nomineeRef.id;
 
       await nomineeRef.set({
@@ -537,7 +537,7 @@ const NewMultiPageForm = ({ to, name }) => {
             Please copy and paste the URL into your browser to access the page
           </p>
           <Snippet symbol="$" variant="bordered" color="default" className=" ">
-            {`https://india.theiena.com/event/${name}`}
+            {`https://ksa.theiena.com/event/${name}`}
           </Snippet>
         </div>
       </div>
