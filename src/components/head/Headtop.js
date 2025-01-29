@@ -54,8 +54,8 @@ function Headtop({ head, opacity }) {
     url = register;
   }
   if (lower === "voting") {
-    url = ismobileView ? votemob : votee;
-    // url = vote2;
+    // url = ismobileView ? votemob : votee;
+    url = vote2;
     // url = votingbanner;
   }
   if (lower === "event registration") {
