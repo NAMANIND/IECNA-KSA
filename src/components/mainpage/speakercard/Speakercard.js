@@ -252,7 +252,7 @@ function SpeakerCard() {
     const fetchPastIndiaspeakers = async () => {
       try {
         const pastIndiaspeakersCollection = await firestore
-          .collection("ksa-speakers")
+          .collection("uae-speakers")
           .where("approved", "==", true) // Filter speakers where approved is true
           .get();
         const pastIndiaspeakersData = pastIndiaspeakersCollection.docs.map(

@@ -448,7 +448,7 @@ function SpeakerCard() {
     const fetchPastIndiaspeakers = async () => {
       try {
         const pastIndiaspeakersCollection = await firestore
-          .collection("ksa-speakers")
+          .collection("uae-speakers")
           .where("approved", "==", true) // Filter speakers where approved is true
           .get();
         const pastIndiaspeakersData = pastIndiaspeakersCollection.docs.map(
@@ -583,7 +583,7 @@ function SpeakerCard() {
             speakers.length > 0 && "pt-[200px]"
           }  text-black leading-[61.92px] max-md:max-w-full max-md:text-4xl`}
         >
-          PAST INDIA SPEAKERS
+          OUR PAST SPEAKERS
         </motion.h2>
         <div className="mt-[120px] w-full max-md:mt-10 max-md:max-w-full">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 gap-y-[150px] w-full">

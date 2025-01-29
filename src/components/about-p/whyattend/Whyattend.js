@@ -131,7 +131,7 @@ function Whyattend() {
                   {/* Card Header */}
                   <div className="p-8 md:p-10">
                     <h2
-                      className={`text-7xl max-md:text-4xl font-bold text-[#51B6FF] tracking-tight leading-tight
+                      className={`text-6xl max-md:text-4xl  font-bold text-[#51B6FF] tracking-tight leading-tight
                     ${anton.className}
                     uppercase   w-full   group-hover:text-[#ccff00]
                     `}
