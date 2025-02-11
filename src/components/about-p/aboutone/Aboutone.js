@@ -179,7 +179,7 @@ function Aboutone() {
           <br />
           <br />
           With its dynamic digital growth and thriving influencer ecosystem,
-          Saudi Arabia stands as the ultimate destination for the 5th Edition of
+          Saudi Arabia stands as the ultimate destination for the 6th Edition of
           The Influence Exchange Confex & Awards. The Kingdom's digital
           advertising market is projected to reach $85.09 million in 2024, with
           a robust CAGR of 10.34% through 2029, reflecting its emergence as a
