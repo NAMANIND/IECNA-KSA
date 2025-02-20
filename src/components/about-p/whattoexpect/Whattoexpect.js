@@ -13,58 +13,28 @@ function Whattoexpect() {
   // Sample data for cards
   const cardData = [
     {
-      title: "Strategic Excellence",
+      title: "Inspiring Interactions",
       imgUrl: engaging,
       description:
-        "Discover pioneering tools and techniques to craft campaigns that drive results and resonate with audiences.",
+        "Engage with a vibrant community of marketers and influencers, sparking ideas and exploring collaborations that transcend the event.",
     },
     {
-      title: "Cutting Edge Insights",
+      title: "Industry Leadership",
       imgUrl: curated,
       description:
-        "Learn from global and regional leaders about emerging trends, ensuring your strategies remain future-ready.",
+        "Learn directly from experts through exclusive sessions that provide actionable strategies and practical insights.",
     },
     {
-      title: "Impactful Results",
-      imgUrl: top,
-      description:
-        "Dive into real-world success stories showcasing influencer collaborations that deliver measurable ROI.",
-    },
-    {
-      title: "Icon Collaborations",
+      title: "Cutting-Edge Insights",
       imgUrl: future,
       description:
-        "Forge partnerships with leading brands and agencies seeking authentic voices to tell their stories.",
+        "Stay ahead of the curve with the latest trends, technologies, and case studies reshaping the future of influencer marketing.",
     },
     {
-      title: "Brand Growth",
-      imgUrl: engaging,
-      description:
-        "Master the art of audience engagement, refine your content strategy, and build a lasting personal brand.",
-    },
-    {
-      title: "New Horizons",
+      title: "Opportunities for All",
       imgUrl: top,
       description:
-        "Explore exclusive opportunities for brand deals, mentorships, and innovative monetization strategies.",
-    },
-    {
-      title: "Disruptive Tech",
-      imgUrl: curated,
-      description:
-        "Present your cutting-edge MarTech and AdTech innovations to a room filled with decision-makers and trendsetters.",
-    },
-    {
-      title: "Campaign Innovation",
-      imgUrl: future,
-      description:
-        "Demonstrate how your solutions can revolutionize marketing strategies, enhance data insights, and drive exceptional outcomes.",
-    },
-    {
-      title: "Elite Network",
-      imgUrl: engaging,
-      description:
-        "Engage with CMOs, marketing heads, and influencers eager to integrate transformative tech into their campaigns.",
+        "Whether you're a marketer looking for fresh strategies, an influencer building brand connections, or a tech innovator showcasing groundbreaking solutions, this platform offers limitless opportunities.",
     },
   ];
 
@@ -105,12 +75,9 @@ function Whattoexpect() {
         viewport={{ once: true, amount: 0.3 }}
         className={`mt-10 text-2xl  sm:px-20 px-5 font-medium tracking-tighter leading-8 text-center text-black max-md:mt-10 max-md:max-w-full ${work_sans.className} `}
       >
-        The Influence Exchange Confex & Awards in KSA is set to be an
-        extraordinary experience, blending inspiration, learning, and
-        celebration in the dynamic realm of influencer marketing. This event
-        promises to deliver invaluable perspectives, actionable insights, and
-        unmatched opportunities to propel your marketing and influencer
-        collaborations to new heights.
+        A Hub of Inspiration and Innovation Saudi Arabia’s dynamic digital
+        landscape, marked by a young, tech-savvy population and world-leading
+        video consumption, sets the stage for a one-of-a-kind event.
       </motion.div>
 
       <div className="w-full max-md:mt-10 max-md:max-w-full sm:p-20 p-5">

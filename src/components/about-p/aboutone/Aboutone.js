@@ -179,7 +179,7 @@ function Aboutone() {
           <br />
           <br />
           With its dynamic digital growth and thriving influencer ecosystem,
-          Saudi Arabia stands as the ultimate destination for the 6th Edition of
+          Saudi Arabia stands as the ultimate destination for the 5th Edition of
           The Influence Exchange Confex & Awards. The Kingdom's digital
           advertising market is projected to reach $85.09 million in 2024, with
           a robust CAGR of 10.34% through 2029, reflecting its emergence as a
@@ -198,14 +198,6 @@ function Aboutone() {
           landscape positions Saudi Arabia as a fertile ground for exploring
           MarTech, AdTech, and influencer strategies that redefine the future of
           marketing.
-          <br />
-          <br />
-          <span className="text-[#ccff00]">
-            Don't miss out on this remarkable gathering of like-minded
-            professionals. Join us at the Influence Exchange Confex and Awards
-            Series KSA 2025 to unlock the full potential of ad tech, mar tech &
-            influencer marketing in today's digital landscape.
-          </span>
         </motion.p>
         <motion.div
           initial={offscreen}

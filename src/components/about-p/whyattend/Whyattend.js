@@ -103,7 +103,7 @@ function Whyattend() {
       >
         This Edition of The Influence Exchange Confex & Awards 2025 isn’t just
         an event; it’s your gateway to influence, innovation, and industry
-        leadership in one of the world’s most dynamic digital markets- Saudi
+        leadership in one of the world’s most dynamic digital markets - Saudi
         Arabia.
       </motion.div>
       {/* Render each card dynamically */}
