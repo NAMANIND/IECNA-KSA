@@ -7,7 +7,7 @@ import Countdown from "@/components/countdown/Countdown";
 
 function Herosection() {
   const customFutureDateTime = new Date(
-    "Wed July 9 2025 01:52:13 GMT+0530 (India Standard Time)"
+    "TUE November 4 2025 01:52:13 GMT+0530 (India Standard Time)"
   );
   const today = new Date(); // Get the current date
 
@@ -55,7 +55,7 @@ function Herosection() {
             Saudi Arabia
           </div>
           <div className="flex-auto sm:mt-6  mt-0 leading-[250%] sm:text-right text-center">
-            9<sup className="text-white">th</sup> JULY 2025
+            4<sup className="text-white">th</sup> NOVEMBER 2025
           </div>
         </div>
         {/* <h1 className="mt-5 text-8xl text-center leading-[89.68px] max-md:max-w-full max-md:text-4xl font-anton">

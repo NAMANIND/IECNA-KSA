@@ -7,7 +7,7 @@ const data = [
   {
     question: "When and where will the event take place?",
     answer:
-      "The event is scheduled for the 9th July in KSA. Please refer to the event details for more information.",
+      "The event is scheduled for the 4th November in KSA. Please refer to the event details for more information.",
   },
   {
     question: "How can I register for the event?",
