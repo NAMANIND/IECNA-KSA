@@ -131,6 +131,23 @@ function page({ params }) {
         "megha.salian@influenceexchangegroup.com",
       ],
     },
+    arfath: {
+      FormType: "general",
+      emails: [
+        "testokie1@gmail.com",
+        "mohamed.suhel@influenceexchangegroup.com",
+        "mohammed.arfath@influenceexchangegroup.com",
+        "megha.salian@influenceexchangegroup.com",
+      ],
+    },
+    maaz: {
+      FormType: "speaker",
+      emails: [
+        "testokie1@gmail.com",
+        "mohamed.suhel@influenceexchangegroup.com",
+        "maaz.shaikh@influenceexchangegroup.com",
+      ],
+    },
     priyanshi: {
       FormType: "speaker",
       emails: [
