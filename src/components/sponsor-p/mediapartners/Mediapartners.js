@@ -13,6 +13,8 @@ import womenera from "../../../../public/images/sponsors/womenera.png";
 import impact from "../../../../public/images/sponsors/impact.png";
 
 import business from "../../../../public/images/sponsors/businesss.png";
+import uae_cargoinsights from "../../../../public/images/sponsors/cargo.png";
+import uae_bharatcxo from "../../../../public/images/sponsors/bharath.png";
 
 function Mediapartners() {
   // Define data for sponsors
@@ -32,6 +34,23 @@ function Mediapartners() {
     //   imageUrl: "/images/sponsors/coinpedia-og.jpg",
     //   logoUrl: coin,
     // },
+
+    {
+      name: "Cargo Insights",
+      description:
+        "Cargo Insights is a premier trade media platform dedicated to the logistics and cargo industry. We offer impactful industry coverage and branding through our monthly magazine, digital news portal, weekly bulletin, daily newsletter, Cargo Insights TV, and the flagship CargoNXT Conference & Recognitions. With a digital reach of 1.8+ lakh, 15,000+ LinkedIn followers, and 5,000+ print circulation, we deliver sharp insights and powerful exposure to logistics professionals navigating today's fast-evolving market landscape.",
+      imageUrl: "/images/sponsors/cargo-og.png",
+      logoUrl: uae_cargoinsights,
+      link: "https://www.cargoinsights.co",
+    },
+    {
+      name: "Bharat CXO",
+      description:
+        "Bharat CXO is a business and technology media platform spotlighting India's CXOs, entrepreneurs, and innovators through blogs, videos, podcasts, and magazines. We amplify leadership voices, sharing insights that inspire and inform.",
+      imageUrl: "/images/sponsors/bharath-og.png",
+      logoUrl: uae_bharatcxo,
+      link: "https://www.bharatcxo.com",
+    },
     {
       name: "Drive Ply",
       description:
