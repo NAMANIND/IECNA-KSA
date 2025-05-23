@@ -17,7 +17,6 @@ const Voting = () => {
     "Best Beauty Influencer of the Year",
     "Best Health & Wellbeing Influencer of the Year",
     "Best Financial Influencer Award",
-    "Gaming Influencer of the Year",
     "Blogger of the year",
     "Mom Influencer of the year",
     "Youtuber of the year",
@@ -26,7 +25,6 @@ const Voting = () => {
     "Educational Content Creator of the Year",
     "Best Art & Photography Influencer",
     "Plus size influencer of the Year",
-    "Best Tech Influencer of the Year",
     "Most Promising Influencer of the Year",
   ];
 

@@ -143,17 +143,6 @@ function CriteriaIn() {
       },
     },
     {
-      "Gaming Influencer of the Year": {
-        description:
-          "Recognizing the influencer who entertains and engages audiences with gaming content, showcasing gameplay, reviews, and insights into the gaming world.",
-        criteria: [
-          "Entertaining gaming content.",
-          "Insights and analysis of gaming trends.",
-          "Engagement and interaction with gaming communities.",
-        ],
-      },
-    },
-    {
       "Blogger of the year": {
         description:
           "Acknowledging influencers who have made significant contributions to their respective niches, amassed a large and engaged audience, and maintained a high level of quality and consistency in their content.",
@@ -239,17 +228,6 @@ function CriteriaIn() {
           "Fashion and Lifestyle Inspiration: Showcases style tips, trends, and product reviews for diverse body types.",
           "Engaging Content: Creates relatable and authentic content that connects with their audience.",
           "Audience Impact: Encourages acceptance and diversity through social media presence.",
-        ],
-      },
-    },
-    {
-      "Best Tech Influencer of the Year": {
-        description:
-          "Honouring the influencer who educates and entertains audiences with insights into the latest technology trends, gadgets, and innovations.",
-        criteria: [
-          "Expertise in technology-related topics.",
-          "Insights and analysis of technology trends.",
-          "Engagement and interaction with tech enthusiasts.",
         ],
       },
     },
