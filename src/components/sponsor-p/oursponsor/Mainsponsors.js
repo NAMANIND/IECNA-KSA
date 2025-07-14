@@ -1,15 +1,9 @@
 "use client";
 import * as React from "react";
 import { anton, work_sans } from "@/styles/fonts";
-import Button from "@/components/button/Button";
+
 import { motion } from "framer-motion";
-import proven from "../../../../public/images/sponsors/uae/proven.png";
-import takefluence from "../../../../public/images/sponsors/uae/takef.png";
-import socialChameleon from "../../../../public/images/sponsors/uae/socialc.png";
-import yalaYala from "../../../../public/images/sponsors/uae/yalayala.png";
-import whoyer from "../../../../public/images/sponsors/uae/whoyer.png";
-import proExpo from "../../../../public/images/sponsors/uae/proexpo.png";
-import socialCash from "../../../../public/images/sponsors/uae/socialcash.png";
+
 import Image from "next/image";
 
 function Mainsponsors() {
@@ -20,9 +14,10 @@ function Mainsponsors() {
       name: "Pro Expo",
       description:
         "Pro Expo Ltd, based in Kenya, specializes in creative exhibition and stand construction solutions for events and conferences. Since 2016, the company has delivered over 870,000 square meters of stands across 46 exhibitions, serving diverse sectors like health, technology, hospitality, and automotive. Renowned for its efficiency and high-quality service, Pro Expo offers customized event setups, branding, and AV equipment hire. With a strong track record of delivering major projects like Medic East Africa and China Trade Week, Pro Expo is a trusted partner for businesses across East Africa and beyond.",
-      imageUrl: "/images/sponsors/uae/og/proexpo.png",
-      logoUrl: proExpo,
+      imageUrl: "https://uae.theiena.com/images/sponsors/uae/og/proexpo.png",
+      logoUrl: "https://uae.theiena.com/images/sponsors/uae/proexpo.png",
       link: "https://www.pro-expo.co.ke/",
+      special: true,
     },
   ];
 
