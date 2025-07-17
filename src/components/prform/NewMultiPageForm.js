@@ -229,6 +229,11 @@ const NewMultiPageForm = ({ to, name }) => {
       return;
     }
 
+    if (formData.registrationType === "nomination" && formData.image === null) {
+      alert("Please upload image");
+      return;
+    }
+
     const notallowedemail = [
       "gmail",
       "yahoo",
@@ -424,13 +429,17 @@ const NewMultiPageForm = ({ to, name }) => {
       setValues(new Set([]));
       setSelectedCategories([]);
     } else {
-      const imageRef = storage
-        .ref()
-        .child(`ksa-delegate-image2025/${formData.image.name}`);
-      await imageRef.put(formData.image);
-      const imageUrl2 = await imageRef.getDownloadURL();
-      setimgu(imageUrl2);
+      let imageRef = null;
+      let imageUrl2 = "";
 
+      if (formData.image) {
+        imageRef = storage
+          .ref()
+          .child(`ksa-delegate-image2025/${formData.image.name}`);
+        await imageRef.put(formData.image);
+        imageUrl2 = await imageRef.getDownloadURL();
+        setimgu(imageUrl2);
+      }
       const htmlcontent = `
       <p>First Name: ${formData.firstName}</p>
       <p>Last Name: ${formData.lastName}</p>
@@ -457,11 +466,14 @@ const NewMultiPageForm = ({ to, name }) => {
    
     `;
 
+      const noimage = imageRef ? " " : " (no image): ";
+
       const subject =
         name +
         " " +
         field +
         " delegate form submission by: " +
+        noimage +
         formData.firstName +
         " " +
         formData.lastName;
@@ -946,7 +958,14 @@ const NewMultiPageForm = ({ to, name }) => {
                   </div>
 
                   <label className="text-sm form-color ">
-                    Upload Image<span className="redal">*</span> (800px x 800px){" "}
+                    {formData.registrationType === "nomination" ? (
+                      <p>
+                        Upload Image<span className="redal">*</span> (1:1 Square
+                        Image)
+                      </p>
+                    ) : (
+                      <p>Get your "I'm Attending" poster (Optional)</p>
+                    )}
                   </label>
                   <Button
                     component="label"
@@ -984,8 +1003,14 @@ const NewMultiPageForm = ({ to, name }) => {
 
                   <div className="flex md:flex-col flex-col gap-2 w-full">
                     <label className="text-sm form-color ">
-                      Upload Image<span className="redal">*</span> (800px x
-                      800px){" "}
+                      {formData.registrationType === "nomination" ? (
+                        <p>
+                          Upload Image<span className="redal">*</span> (1:1
+                          Square Image)
+                        </p>
+                      ) : (
+                        <p>Get your "I'm Attending" poster (Optional)</p>
+                      )}
                     </label>
                     <Button
                       component="label"
@@ -1079,6 +1104,8 @@ const NewMultiPageForm = ({ to, name }) => {
                 onClick={() => {
                   setSent(false);
                   setrtype("");
+                  // reload the page
+                  window.location.reload();
                 }}
                 className={`absolute right-0 top-0  
                 bg-black text-white w-fit h-fit rounded-3xl 
@@ -1094,13 +1121,13 @@ const NewMultiPageForm = ({ to, name }) => {
               </button>
             </div>
             <div className="flex-col justify-center sm:justify-around sm:flex-row flex gap-5 items-center w-full">
-              <div
-                className={`flex justify-center items-center w-full sm:w-[${
-                  rtype === "nomination" ? "50%" : "50%"
-                }]`}
-              >
-                {poppage}
-              </div>
+              {poppage && (
+                <div
+                  className={`flex justify-center items-center w-full sm:w-[50%]`}
+                >
+                  {poppage}
+                </div>
+              )}
               <div className="flex flex-col justify-start sm:text-2xl text-medium sm:mt-0 mt-5 flex-col gap-4 align-top h-1/2 sm:h-[70vh] ">
                 {rtype === "nomination" && (
                   <div className="w-1/2 flex">
@@ -1136,12 +1163,14 @@ const NewMultiPageForm = ({ to, name }) => {
                     </div>
                   </div>
                 )}
-                <div className="w-1/2 flex ">
-                  <div className="  w-full">
-                    Social Share:
-                    {so}
+                {so && (
+                  <div className="w-1/2 flex ">
+                    <div className="  w-full">
+                      Social Share:
+                      {so}
+                    </div>
                   </div>
-                </div>
+                )}
                 <div className="flex">
                   <div className="w-full">
                     <h1 className="mb-5">
