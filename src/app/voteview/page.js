@@ -16,6 +16,74 @@ const VoteViews = () => {
   const [searchResults2, setSearchResults2] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
+  // Define category arrays
+  const influencerCategories = [
+    "Mega/Celeb-Influencer of the Year",
+    "Macro-Influencer of the Year",
+    "Micro-Influencer of the Year",
+    "Nano Influencer of the year",
+    "Creative Visual Content Creator",
+    "Social Media Engagement Champion",
+    "Best Fashion and Style Influencer of the Year",
+    "Best Travel Influencer of the Year",
+    "Best Beauty Influencer of the Year",
+    "Best Health & Wellbeing Influencer of the Year",
+    "Best Financial Influencer Award",
+    "Blogger of the year",
+    "Mom Influencer of the year",
+    "Youtuber of the year",
+    "Entertainment Maven of the Year",
+    "Food/Culinary Influencer of the Year",
+    "Educational Content Creator of the Year",
+    "Best Art & Photography Influencer",
+    "Plus size influencer of the Year",
+    "Most Promising Influencer of the Year",
+  ];
+
+  const marketerCategories = [
+    "Marketing Leader of the Year",
+    "Branding Leader of the Year",
+    "Digital Marketeer of the Year",
+    "Influencer Marketeer of the Year",
+    "Social Media Marketeer of the Year",
+    "Data-Driven Marketer of the Year",
+    "Brand Activation Strategist of the Year",
+    "Customer Experience Advocate",
+    "Digital Transformation Leader of the Year",
+    "PR and Communication Strategist of the Year",
+  ];
+
+  // Helper function to get ordered categories
+  const getOrderedCategories = (nomineesByCategory) => {
+    const orderedCategories = [];
+
+    // First add all marketer categories that exist in the data
+    marketerCategories.forEach((category) => {
+      if (nomineesByCategory[category]) {
+        orderedCategories.push([category, nomineesByCategory[category]]);
+      }
+    });
+
+    // Then add all influencer categories that exist in the data
+    influencerCategories.forEach((category) => {
+      if (nomineesByCategory[category]) {
+        orderedCategories.push([category, nomineesByCategory[category]]);
+      }
+    });
+
+    // Finally add any remaining categories that aren't in the predefined lists
+    Object.entries(nomineesByCategory).forEach(([category, nominees]) => {
+      if (
+        !marketerCategories.includes(category) &&
+        !influencerCategories.includes(category)
+      ) {
+        orderedCategories.push([category, nominees]);
+      }
+    });
+
+    return orderedCategories;
+  };
+
   useEffect(() => {
     const fetchTransformedImages = async () => {
       try {
@@ -248,7 +316,7 @@ const VoteViews = () => {
 
           {activeSection === "ranking" ? (
             <>
-              {Object.entries(nomineesByCategory).map(
+              {getOrderedCategories(nomineesByCategory).map(
                 ([category, nominees]) => (
                   <div key={category} className="mb-8">
                     <h2
