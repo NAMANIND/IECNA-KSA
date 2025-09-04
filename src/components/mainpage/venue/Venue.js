@@ -84,18 +84,18 @@ function Venue() {
               <div
                 className={`mt-0 tracking-tighter leading-[56px] uppercase max-md:mt-10 max-md:text-4xl max-md:leading-[52px] ${work_sans.className}`}
               >
-                {/* <a
-                  href="https://maps.app.goo.gl/fgS3tdowgfkmGcij9"
+                <a
+                  href="https://maps.app.goo.gl/o7DgB7uSJ9MoyL2a7"
                   target="_blank"
                 >
-                  Taj Lands End
+                  Rosh Rayhaan by Rotana Riyadh
                   <br />
                   <span className="flex flex-row gap-2">
                     {" "}
-                    MUMBAI {"    "}
+                    Saudi Arabia {"    "}
                     <FaLocationDot />
                   </span>
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
