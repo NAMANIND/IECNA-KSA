@@ -85,14 +85,15 @@ function Venue() {
                 className={`mt-0 tracking-tighter leading-[56px] uppercase max-md:mt-10 max-md:text-4xl max-md:leading-[52px] ${work_sans.className}`}
               >
                 <a
-                  href="https://maps.app.goo.gl/o7DgB7uSJ9MoyL2a7"
+                  href="https://maps.app.goo.gl/hkJHzXWjXRPZtidN6"
                   target="_blank"
                 >
-                  Rosh Rayhaan by Rotana Riyadh
+                  Radisson Blu Hotel, Riyadh
                   <br />
-                  <span className="flex flex-row gap-2">
+                  <span className="flex flex-row gap-2 text-xl tracking-normal max-md:text-sm mt-3">
                     {" "}
-                    Saudi Arabia {"    "}
+                    Al Mubarakia Plaza, king Abdul Aziz Road 11415
+                    Riyadh, Saudi Arabia
                     <FaLocationDot />
                   </span>
                 </a>

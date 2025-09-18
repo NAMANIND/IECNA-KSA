@@ -38,12 +38,13 @@ function EventDetails() {
           <span className="text-white"> NOVEMBER 2025</span>
         </time>
         <div className="self-end sm:mt-12 my-5 text-5xl uppercase  font-medium  text-[#ccff00] tracking-[4px]	 leading-[56px]  max-md:text-4xl max-md:leading-[52px]">
-          <a href="https://maps.app.goo.gl/o7DgB7uSJ9MoyL2a7" target="_blank">
-            Rosh Rayhaan by Rotana Riyadh
+          <a href="https://maps.app.goo.gl/hkJHzXWjXRPZtidN6" target="_blank">
+            Radisson Blu Hotel, Riyadh
             <br />
-            <span className="flex flex-row justify-end gap-2">
+            <span className="flex flex-row justify-end gap-2 text-xl tracking-normal max-md:text-sm mt-3">
               {" "}
-              Saudi Arabia {"    "}
+              Al Mubarakia Plaza, king Abdul Aziz Road 11415
+              Riyadh, Saudi Arabia
               <FaLocationDot />
             </span>
           </a>
