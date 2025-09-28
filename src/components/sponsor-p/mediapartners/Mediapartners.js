@@ -159,6 +159,16 @@ function Mediapartners() {
       new: true,
     },
     {
+      name: "Public Front",
+      description:
+        '"Public Front" National English Weekly is among India\'s leading newspapers and journals (since 2002), with wide circulation at home and abroad (in print and e-paper modes). It covers local, national, and international news on ongoing political situations, current affairs, business and economic affairs, legal affairs, world affairs, cinema and entertainment, and sports news, among other subjects of national and global importance. We are a dedicated team of dynamic aristocrats who voice facts to the public.',
+      imageUrl: "https://uae.theiena.com/images/sponsors/uae/publicfront.png",
+      logoUrl: "https://uae.theiena.com/images/sponsors/uae/publicfront.png",
+      link: "https://publicfront.news/",
+      new: true,
+    },
+
+    {
       name: "Middle East News 247",
       description:
         "Middle East News 247 is a digital portal delivering verified news and information about the Middle East and GCC region. Their experienced journalists provide high-quality, fact-checked content while maintaining the perfect balance between AI technology and human expertise.",
