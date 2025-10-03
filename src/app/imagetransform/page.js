@@ -86,7 +86,7 @@ function ImageDownloadPage({
             company
           )}/fl_layer_apply,x_-5,y_290/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_-5,y_330/fgkcoahwn4c3qz2ciluk.jpg`;
+          )}/fl_layer_apply,x_-5,y_330/ksa_speaking.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       } else {
@@ -96,7 +96,7 @@ function ImageDownloadPage({
             title
           )}/fl_layer_apply,x_-5,y_240/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_-5,y_290/fgkcoahwn4c3qz2ciluk.jpg`;
+          )}/fl_layer_apply,x_-5,y_290/ksa_speaking.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       }
@@ -112,7 +112,7 @@ function ImageDownloadPage({
             company
           )}/fl_layer_apply,x_310,y_245/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_310,y_280/ugzbi9opvd3pqnzvkftm.jpg`;
+          )}/fl_layer_apply,x_310,y_280/IM_attending_q3tgqg.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       } else {
@@ -122,7 +122,7 @@ function ImageDownloadPage({
             title
           )}/fl_layer_apply,x_310,y_200/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_310,y_245/ugzbi9opvd3pqnzvkftm.jpg`;
+          )}/fl_layer_apply,x_310,y_245/IM_attending_q3tgqg.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       }
@@ -138,7 +138,7 @@ function ImageDownloadPage({
             company
           )}/fl_layer_apply,x_0,y_380/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_0,y_420/dfqywpnztljlzk6ourlo.jpg`;
+          )}/fl_layer_apply,x_0,y_420/award_nomination_yo02bt.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       } else {
@@ -148,7 +148,7 @@ function ImageDownloadPage({
             title
           )}/fl_layer_apply,x_0,y_330/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_0,y_380/dfqywpnztljlzk6ourlo.jpg`;
+          )}/fl_layer_apply,x_0,y_380/award_nomination_yo02bt.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       }
