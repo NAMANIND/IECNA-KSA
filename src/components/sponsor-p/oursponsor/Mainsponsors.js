@@ -10,6 +10,18 @@ function Mainsponsors() {
   // Define data for sponsors
   const sponsors = [
     {
+      title: "Silver Sponsor",
+      name: "Collective Artists Network",
+      description:
+        "Collective Artists Network is India's leading integrated new media company, built at the intersection of content, talent, technology, and commerce. With one of the country's most influential rosters of talent, Collective shapes the way brands, communities, and audiences interact with popular culture. Through its growing ecosystem - spanning creator platforms, youth communities, original IPs, and data-led brand partnerships - Collective seamlessly blends storytelling with distribution and cultural insight.",
+      imageUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2FCover%20image.png?alt=media&token=5b83e66a-877f-42c2-adfe-f044a5ae5410",
+      logoUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2Flogo.png?alt=media&token=c066e2e5-1fc3-4e4a-826b-956b0e82dda9",
+      link: "https://collectiveartists.com/",
+      special: true,
+    },
+    {
       title: "Event contracting partner",
       name: "Pro Expo",
       description:
