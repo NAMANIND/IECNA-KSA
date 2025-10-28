@@ -22,6 +22,31 @@ function Mainsponsors() {
       special: true,
     },
     {
+      title: "Silver Sponsor",
+      name: "Yaqoot & Zumurod Co.",
+      description:
+        'Established in 2008 in Riyadh, Yaqoot & Zumurod (Y&Z) is an integrated marketing and communications company. Y&Z offers a comprehensive range of services, including corporate communication, public relations, market research, and event management. We pride ourselves on a "warrior\'s mindset," combining innovation, creativity, and an analytical approach to help clients achieve their marketing goals and enhance their brand identity.',
+      imageUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2Fyzog.png?alt=media&token=3d0abcf9-d131-432f-90ac-7fc2e4c3ee37",
+      logoUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2Fyz-lo.png?alt=media&token=2b1954eb-b811-4c96-921f-68ac12a67e42",
+      link: "https://ynz.sa/",
+      special: true,
+    },
+    {
+      title: "Supporting Partner",
+      name: "Trust Corp",
+      description:
+        "Trust Corp, a visionary holding company, integrates four specialized divisions: Trust Advisory, Trust Pro, Trust Hive, and Trust Minds under one mission: to deliver transformative, cross-sector impact. By combining, Business Consulting, Marketing, Branding , Creative Strategies, Training and Development, Innovation, Market Research and Business Intelligence the company drives progress with a global vision and local agility, empowering organizations to break boundaries and achieve sustainable growth through unified excellence and strategic synergy.",
+      imageUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2Ftclg.png?alt=media&token=c569e82b-a53f-4355-ad67-b2e5fd3dbce7",
+      logoUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2Fcitc.png?alt=media&token=95186f0d-1a2e-49ec-acdc-d9d2b3cf0004",
+      link: "http://www.trustcorpgroup.com/",
+      special: true,
+    },
+
+    {
       title: "Event contracting partner",
       name: "Pro Expo",
       description:
