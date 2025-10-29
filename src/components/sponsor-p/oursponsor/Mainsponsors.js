@@ -33,6 +33,33 @@ function Mainsponsors() {
       link: "https://ynz.sa/",
       special: true,
     },
+
+    {
+      title: "Silver Sponsor",
+      name: "Social Tweebs",
+      description:
+        "Social Tweebs is a data-driven, end-to-end influencer marketing agency helping India's leading brands optimise 20–50% of their influencer spend through a powerful blend of intelligence, creativity, and AI-led technology. With a 60+ member team across Mumbai, Delhi, and Bangalore, we partner with brands as strategic consultants to craft content-first campaigns, identify credible creators, and deliver measurable impact. Our proprietary platform - The Tweeb Tool, powers every stage of the influencer journey with data & science, from discovery and insights to fraud detection and performance reporting, ensuring credibility, precision and transparency. Having executed numerous successful campaigns for marquee brands such as Dubai Tourism, Samsung, Coca-Cola, McDonald's, Hero MotoCorp, Harley-Davidson, Domino's, Shoppers Stop, Galderma, AMD, and Cipla, we bring scale, strategy, and storytelling together to transform influencer marketing into a reliable growth engine for brands.",
+      imageUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2Fsot-cover.png?alt=media&token=d0a6aeb8-5dc8-4081-bcf4-0d3081b5d548",
+      logoUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2Fsot-logo.png?alt=media&token=c24397b5-874c-4489-b6eb-12de8b9ad8ea",
+      link: "https://www.socialtweebs.com/",
+      special: true,
+    },
+
+    {
+      title: "Supporting Partner",
+      name: "Lasting Impact",
+      description:
+        "Lasting Impact is an innovative advertising and marketing company that transforms ideas into powerful campaigns with measurable results. Built on creativity, strategy, and technology, the company delivers integrated solutions in branding, digital media, influencer marketing, and content production. With a focus on storytelling that resonates, Lasting Impact helps clients capture attention, engage communities, and drive growth across local and international markets. The company's philosophy is rooted in creating campaigns that do more than sell—they inspire, connect, and leave a meaningful mark. At Lasting Impact, advertising is not just about visibility, but about shaping narratives that endure.",
+      imageUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2Fli-cover.png?alt=media&token=c77bd26a-191a-4a27-9c49-7ec767c86b02",
+      logoUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2Fli-logo.png?alt=media&token=0f4549c9-93ad-4178-9285-ca6eeb85042d",
+      link: "https://lastingimpact-sa.com/",
+      special: true,
+    },
+
     {
       title: "Supporting Partner",
       name: "Trust Corp",
