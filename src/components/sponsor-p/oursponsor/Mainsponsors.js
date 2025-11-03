@@ -83,6 +83,30 @@ function Mainsponsors() {
       link: "https://www.pro-expo.co.ke/",
       special: true,
     },
+    {
+      title: "Visibility Partner",
+      name: "Music Grid",
+      description:
+        "Music Grid is a creative music agency that helps brands find their sound. They blend strategy, composition, and cultural insight to craft music that connects with audiences. From brand identity to campaigns, we create sonic experiences that leave a lasting impression across every touchpoint.",
+      imageUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2Fog-musicgrid.png?alt=media&token=a72c09dd-cb32-46ba-86bd-4ad8459d5ffc",
+      logoUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2Flogo-musicgrid.png?alt=media&token=23a3d6a0-c084-4db5-95a5-aaf7302c66c1",
+      link: "https://www.musicgrid.com/",
+      special: true,
+    },
+    {
+      title: "Exhibitor",
+      name: "Sendcrux",
+      description:
+        "Sendcrux is a powerful tool designed to maximize success with cold emails. With its extensive experience and dexterity, you no longer need to purchase multiple mailboxes. Its domain and SMTP server rotation capabilities ensure the highest possible open rates, click-through rates, and responses.",
+      imageUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2Fog-sendc.png?alt=media&token=ad9c66ba-4640-4ee0-aa8a-8e20074a1659",
+      logoUrl:
+        "https://firebasestorage.googleapis.com/v0/b/iena-597b2.appspot.com/o/sponsors%2Flogo-sendc.png?alt=media&token=17d5a642-74e7-48ed-bff3-c2fe765b30e9",
+      link: "https://sendcrux.com/",
+      special: true,
+    },
   ];
 
   const offscreen = {
